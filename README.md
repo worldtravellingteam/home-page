@@ -7,7 +7,7 @@
  <title>about us page</title>
  </head>
  <body>
- <center><h4>welcome!</h4></center>
+ <center font-size="30px";> >welcome!</center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
  
  
