@@ -9,7 +9,7 @@
  <body>
    <font size="10px">
  <body>
- <body>
+ <body bgcolor="wheat">
  <center><b>welcome!</b></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
  
@@ -23,7 +23,7 @@
  </body>
 
 
-
+</html>
 
 
 
