@@ -10,9 +10,8 @@
    <font size="10px" >
  <center><b>welcome!</b></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
-
- <body>
- <body>
+ 
+ 
     <font size="4px" >
  <a href="https://www.facebook.com/profile.php?id=100006019870063" target="_blank">click here</a> to visit facebook profile
  
