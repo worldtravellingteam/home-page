@@ -8,21 +8,19 @@
  </head>
  <body>
    <font size="10px" >
- <body>
- <body>
  <center><b>welcome!</b></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
- </body>
+
+ <body>
+    <font size="4px" >
  <a href="https://www.facebook.com/profile.php?id=100006019870063" target="_blank">For more informantion click here</a>
  
  
  
  
  
- 
- 
  </body>
-
+ </body>
 
 
 
