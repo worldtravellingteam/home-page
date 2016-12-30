@@ -6,9 +6,8 @@
  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
  <title>about us page</title>
  </head>
- <body bgcolor="green">
  <body>
-   <font size="10px">
+   <font size="10px" bgcolor="green">
  <body>
  <body>
  <center><b>welcome!</b></center>
@@ -20,7 +19,6 @@
  
  
  
- </body>
  </body>
 
 
