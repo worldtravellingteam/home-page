@@ -13,7 +13,8 @@
 
  <body>
     <font size="4px" >
- <a href="https://www.facebook.com/profile.php?id=100006019870063" target="_blank">For more informantion click here</a>
+ <a href="https://www.facebook.com/profile.php?id=100006019870063" target="_blank">click here</a> to visit facebbok profile
+ 
  
  
  
