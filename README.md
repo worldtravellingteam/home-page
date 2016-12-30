@@ -3,7 +3,7 @@
  <title>about us page</title>
  </head>
  <body>
- <centre><h4>welcome!</h4></centre>
+ <center><h4>welcome!</h4></center>
  
  
  
