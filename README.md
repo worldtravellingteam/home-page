@@ -6,9 +6,10 @@
  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
  <title>about us page</title>
  </head>
- <body><font size="10px">
  <body>
- 
+   <font size="10px">
+ <body>
+ <body>
  <center><b>welcome!</b></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
  
@@ -27,4 +28,4 @@
 
 
 
-</html>
+
