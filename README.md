@@ -19,6 +19,17 @@ font-family:comic sans ms;}
 border:7px dashed #A70AC7; }
 
 </style>
+<style>
+ a:link{
+ color:3a7db2;
+ text-decoration:none;}
+ 
+ a:active{
+ color:green;}
+ 
+ a:visited{
+ color:red;}
+</style>
  </head>
  <body>
  <div>
