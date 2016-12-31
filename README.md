@@ -5,11 +5,15 @@
  <meta name="author" content="shivam gupta,aashish pandey"/>
  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
  <title>about us page</title>
+ <style>
+  #test{
+  color:red;}
+ </style>
  </head>
  <body>
  <div>
    <font size="10px" >
- <center><b>welcome!</b></center>
+ <center><h2 id="test">welcome!</h2></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
  
  
