@@ -41,7 +41,7 @@ border:7px dashed #A70AC7; }
  <body>
 
    <font size="10px" >
- <center><b><h2>welcome!</h2></b></center>
+ <center><b id="test"><h2>welcome!</h2></b></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
  
  
