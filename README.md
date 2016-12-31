@@ -20,7 +20,7 @@ border:7px dashed #A70AC7; }
 
 </style>
  </head>
- <body>
+ <body bgcolor="wheat">
  <div>
    <font size="10px" >
  <center><b id="test">welcome!</b></center>
