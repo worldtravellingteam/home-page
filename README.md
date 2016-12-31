@@ -27,6 +27,9 @@ border:7px dashed #A70AC7; }
  a:active{
  color:green;}
  
+ a:hover{
+ color:blue}
+ 
  a:visited{
  color:red;}
 </style>
