@@ -9,6 +9,10 @@
   #test{
   color:#DBA912;}
  </style>
+ <style>
+h1{
+font-family:comic sans ms;}
+</style>
  </head>
  <body>
  <div>
