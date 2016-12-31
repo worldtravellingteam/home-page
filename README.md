@@ -7,7 +7,7 @@
  <title>about us page</title>
  <style>
   #test{
-  color:red;}
+  color:#DBA912;}
  </style>
  </head>
  <body>
