@@ -13,6 +13,12 @@
 h1{
 font-family:comic sans ms;}
 </style>
+<style>
+
+ img{
+border:7px dashed #f00; }
+
+</style>
  </head>
  <body>
  <div>
