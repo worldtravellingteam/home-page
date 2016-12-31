@@ -16,7 +16,7 @@ font-family:comic sans ms;}
 <style>
 
  img{
-border:7px dashed #f00; }
+border:7px dashed #A70AC7; }
 
 </style>
  </head>
