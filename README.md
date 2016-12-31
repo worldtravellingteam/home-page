@@ -41,7 +41,7 @@ border:7px dashed #A70AC7; }
  <body>
 
    <font size="10px" >
- <center><b id="test">welcome!</b></center>
+ <center><b><h2>welcome!</h2></b></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
  
  
@@ -58,7 +58,7 @@ oh=68b231e209b66be700e88efa7dda9af0&oe=58E5D450" width="150">
 
 9/14606276_972384166220956_2960383577954918308_n.jpg?
 
-oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150"> <br/>
+oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150"> 
   <a href="https://www.facebook.com/aashishkumar.pandey.9?pnref=story" target="_blank">click here</a> to visit facebook profile
  
  
