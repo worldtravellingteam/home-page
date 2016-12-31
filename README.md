@@ -13,7 +13,7 @@
  <body>
  <div>
    <font size="10px" >
- <center><h2 id="test">welcome!</h2></center>
+ <center><b id="test">welcome!</b></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
  
  
