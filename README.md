@@ -7,7 +7,7 @@
  <title>about us page</title>
  <style>
  body{
- background-color:green;
+ background-color:#E6A50E;
 background-image:url(http://ibcdn.imagesbazaar.com/img1024/14906/SM574504.jpg);
 background-repeat:no-repeat;
 background-position:center;
