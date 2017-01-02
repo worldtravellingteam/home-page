@@ -6,6 +6,9 @@
  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
  <title>about us page</title>
  <style>
+ body{
+background-image:url(http://ibcdn.imagesbazaar.com/img1024/14957/SM578519.jpg);
+}
   #test{
   color:#DBA912;}
  </style>
