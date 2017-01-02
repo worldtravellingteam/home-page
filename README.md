@@ -9,7 +9,7 @@
  body{
  background-color:#E6A50E;
 background-image:url(http://cdn.earthporm.com/wp-content/uploads/2013/12/The-Ultimate-Guide-to-Traveling-When-You%E2%80%99re-Broke.jpg);
-;
+background-position:center;
 }
   #test{
   color:#DBA912;}
