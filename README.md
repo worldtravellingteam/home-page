@@ -8,7 +8,7 @@
  <style>
  body{
  background-color:#E6A50E;
-background-image:url(http://ibcdn.imagesbazaar.com/img1024/14906/SM574504.jpg);
+background-image:url(http://cdn.earthporm.com/wp-content/uploads/2013/12/The-Ultimate-Guide-to-Traveling-When-You%E2%80%99re-Broke.jpg);
 background-repeat:no-repeat;
 background-position:center;
 }
