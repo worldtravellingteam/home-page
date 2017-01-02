@@ -8,7 +8,7 @@
  <style>
  body{
  background-color:#E6A50E;
-background-image:url(https://wwellend.files.wordpress.com/2016/05/cropped-p41412421.jpg);
+background-image:url(https://static1.squarespace.com/static/5641247ae4b089d6ff9787b7/t/564a0b41e4b03126ff2afe8c/1447693123689/travelling-movement-EC_13.jpg?format=2500w);
 background-repeat:no-repeat;
 background-position:center;
 }
