@@ -84,7 +84,7 @@ list-style:none;}
 #menu ul li{
 background-color:black;
 border:1px solid white;
-width:120px;
+width:300px;
 height:50px;
 line-height:50px;
 text-align:center;
@@ -141,39 +141,39 @@ border:7px dashed #A70AC7; }
    <ul>
     <li><a href="#">India</a>
 	 <ul>
-	    <li><a href="#">Andra pradesh</a>
-		 <li><a href="#">Arunachal pradesh</a>
-		  <li><a href="#">Assam</a>
-		   <li><a href="#">Bihar</a>
-		    <li><a href="#">Chhattisgarh</a>
-			 <li><a href="#">Goa</a>
-			  <li><a href="#">Gujarat</a>
-			   <li><a href="#">Haryana</a>
-			    <li><a href="#">Himachal Pradesh</a>
-				 <li><a href="#">Jammu & Kashmir</a>
-				  <li><a href="#">Delhi</a>
-				   <li><a href="#">Karnataka</a>
-				    <li><a href="#">Kerala</a>
-					 <li><a href="#">Madya Pradesh</a>
-					  <li><a href="#">Maharashtra</a>
-					   <li><a href="#">Mizoram</a>
-					    <li><a href="#">Nagaland</a>
-						 <li><a href="#">Orissa</a>
-						  <li><a href="#">Punjab</a>
-						   <li><a href="#">Rajasthan</a>
-						    <li><a href="#">Sikkim</a>
-							 <li><a href="#">Tamil Nadu</a>
-							  <li><a href="#">Tripura</a>
-							   <li><a href="#">Uttaranchal</a>
-							    <li><a href="#">Uttar Pradesh</a>
-								 <li><a href="#">West Bengal</a>
-								  <li><a href="#">Daman & Diu</a>
-								   <li><a href="#">Lakshadeep</a>
-								    <li><a href="#">Pondicherry</a>
-								   <li><a href="#">Dadar & Nagar</a>
-								    <li><a href="#">Chandigarh</a>
-									<li><a href="#">Andaman & NIcobar</a>
-									 <li><a href="#">Jharkhand</a>
+	 <li><a href="#">Andra pradesh</a></li>
+		 <li><a href="#">Arunachal pradesh</a></li>
+		  <li><a href="#">Assam</a></li>
+		   <li><a href="#">Bihar</a></li>
+		    <li><a href="#">Chhattisgarh</a></li>
+			 <li><a href="#">Goa</a></li>
+			  <li><a href="#">Gujarat</a></li>
+			   <li><a href="#">Haryana</a></li>
+			    <li><a href="#">Himachal Pradesh</a></li>
+				 <li><a href="#">Jammu & Kashmir</a></li>
+				  <li><a href="#">Delhi</a></li>
+				   <li><a href="#">Karnataka</a></li>
+				    <li><a href="#">Kerala</a></li>
+					 <li><a href="#">Madya Pradesh</a></li>
+					  <li><a href="#">Maharashtra</a></li>
+					   <li><a href="#">Mizoram</a></li>
+					    <li><a href="#">Nagaland</a></li>
+						 <li><a href="#">Orissa</a></li>
+						  <li><a href="#">Punjab</a></li>
+						   <li><a href="#">Rajasthan</a></li>
+						    <li><a href="#">Sikkim</a></li>
+							 <li><a href="#">Tamil Nadu</a></li>
+							  <li><a href="#">Tripura</a></li>
+							   <li><a href="#">Uttaranchal</a></li>
+							    <li><a href="#">Uttar Pradesh</a></li>
+								 <li><a href="#">West Bengal</a></li>
+								  <li><a href="#">Daman & Diu</a></li>
+								   <li><a href="#">Lakshadeep</a></li>
+								    <li><a href="#">Pondicherry</a></li>
+								   <li><a href="#">Dadar & Nagar</a></li>
+								    <li><a href="#">Chandigarh</a></li>
+									<li><a href="#">Andaman & NIcobar</a></li>
+									 <li><a href="#">Jharkhand</a></li>
 						 
 	 </ul>
 	</li>
