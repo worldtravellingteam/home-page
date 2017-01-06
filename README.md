@@ -77,18 +77,18 @@ font-size:79px;
 color:#DBA912;
 text-shadow: 4px 4px 4px #aaa;
 }
-
+<style>
 #menu ul{
 list-style:none;}
 
 #menu ul li{
+background-color:black;
 border:1px solid white;
 width:120px;
 height:50px;
 line-height:50px;
 text-align:center;
 float:left;
-position:relative;
 
 }
 #menu ul li a{
@@ -124,6 +124,7 @@ border:7px dashed #A70AC7; }
  
  a:visited{
  color:red;}
+</style>
 </style>
 </head>
  <body>
