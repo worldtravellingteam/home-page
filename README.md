@@ -77,6 +77,7 @@ font-size:79px;
 color:#DBA912;
 text-shadow: 4px 4px 4px #aaa;
 }
+</style>
 <style>
 #menu ul{
 list-style-type:none;}
@@ -107,6 +108,7 @@ display:block;}
 width:350px;
 margin-left:260px;
 top:0px;}
+
 </style>
 <style>
 
@@ -127,7 +129,6 @@ border:7px dashed #A70AC7; }
  
  a:visited{
  color:red;}
-</style>
 </style>
 </head>
  <body>
