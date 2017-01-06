@@ -54,7 +54,9 @@
  <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Tangerine">
 		  <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=comic sans ms">
+      href="https://fonts.googleapis.com/css?family=serif">
+	    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Comic Sans MS">
  
  <style>
  body{
