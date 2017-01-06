@@ -132,17 +132,62 @@ border:7px dashed #A70AC7; }
  <center><h1>welcome!</h1></center>
  <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
  
- <body>
+<body>
  <div id="menu">
  <ul>
   <li><a href="#">Home</a></li>
-     <li><a href="#">Countries</a><li>
-     <li><a href="#">Account</a></li>
-         <li><a href="#">About</a></li>
+   <li><a href="#">Countries</a>
+   <ul>
+    <li><a href="#">India</a>
+	 <ul>
+	    <li><a href="#">Andra pradesh</a>
+		 <li><a href="#">Arunachal pradesh</a>
+		  <li><a href="#">Assam</a>
+		   <li><a href="#">Bihar</a>
+		    <li><a href="#">Chhattisgarh</a>
+			 <li><a href="#">Goa</a>
+			  <li><a href="#">Gujarat</a>
+			   <li><a href="#">Haryana</a>
+			    <li><a href="#">Himachal Pradesh</a>
+				 <li><a href="#">Jammu & Kashmir</a>
+				  <li><a href="#">Delhi</a>
+				   <li><a href="#">Karnataka</a>
+				    <li><a href="#">Kerala</a>
+					 <li><a href="#">Madya Pradesh</a>
+					  <li><a href="#">Maharashtra</a>
+					   <li><a href="#">Mizoram</a>
+					    <li><a href="#">Nagaland</a>
+						 <li><a href="#">Orissa</a>
+						  <li><a href="#">Punjab</a>
+						   <li><a href="#">Rajasthan</a>
+						    <li><a href="#">Sikkim</a>
+							 <li><a href="#">Tamil Nadu</a>
+							  <li><a href="#">Tripura</a>
+							   <li><a href="#">Uttaranchal</a>
+							    <li><a href="#">Uttar Pradesh</a>
+								 <li><a href="#">West Bengal</a>
+								  <li><a href="#">Daman & Diu</a>
+								   <li><a href="#">Lakshadeep</a>
+								    <li><a href="#">Pondicherry</a>
+								   <li><a href="#">Dadar & Nagar</a>
+								    <li><a href="#">Chandigarh</a>
+									<li><a href="#">Andaman & NIcobar</a>
+									 <li><a href="#">Jharkhand</a>
+						 
+	 </ul>
+	</li>
+	 <li><a href="#">Nepal</a></li>
+	  <li><a href="#">Switzerland</a></li>
+	   <li><a href="#">England</a></li>
+	      <li><a href="#">Australia</a></li>
+		     <li><a href="#">Sri lanka</a></li>
+			 </ul>
+   </li>
+    <li><a href="#">Account</a></li>
+	 <li><a href="#">About</a></li>
 	 	
 </ul>
- 
-   
-
+ </div>
+ </body>
 
 
