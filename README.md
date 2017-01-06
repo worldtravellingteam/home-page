@@ -84,7 +84,7 @@ list-style:none;}
 #menu ul li{
 background-color:black;
 border:1px solid white;
-width:300px;
+width:120px;
 height:50px;
 line-height:50px;
 text-align:center;
