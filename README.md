@@ -63,8 +63,6 @@ background-image:url(https://static1.squarespace.com/static/5641247ae4b089d6ff97
 background-repeat:no-repeat;
 background-position:center;
 }
-  #test{
-  color:#DBA912;}
  </style>
  <style>
 h1{
@@ -99,7 +97,7 @@ border:7px dashed #A70AC7; }
  <body>
 
    <font size="10px" >
- <center><b id="test"><h1>welcome!</h1></b></center>
+ <center><h1>welcome!</h1></center>
  <marquee bgcolor="#29B399" behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
  
  
