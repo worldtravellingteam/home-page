@@ -91,6 +91,7 @@ float:left;
 
 }
 #menu ul li a{
+text-decoration:none;
 color:white;
 display:block;}
 
