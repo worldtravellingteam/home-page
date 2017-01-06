@@ -68,7 +68,8 @@ background-position:center;
  </style>
  <style>
 h1{
-font-family:Tangerine;}
+font-family:Tangerine;
+font-size:79px}
 </style>
 <style>
 h2{
@@ -98,8 +99,8 @@ border:7px dashed #A70AC7; }
  <body>
 
    <font size="10px" >
- <center><b id="test"><h2>welcome!</h2></b></center>
- <marquee bgcolor="#29B399" behavior="scroll"><h1>welcome to world travelling website :))</h1></marquee>
+ <center><b id="test"><h1>welcome!</h1></b></center>
+ <marquee bgcolor="#29B399" behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
  
  
     <font size="4px" >
