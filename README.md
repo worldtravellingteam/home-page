@@ -136,9 +136,9 @@ border:7px dashed #A70AC7; }
  <div id="menu">
  <ul>
   <li><a href="#">Home</a></li>
-   <li><a href="#">Countries</a><ul>
-<li><a href="#">Account</a></li>
-<li><a href="#">About</a></li>
+   <li><a href="#">Countries</a><li>
+   <li><a href="#">Account</a></li>
+    <li><a href="#">About</a></li>
 	 	
 </ul>
  
