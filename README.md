@@ -53,10 +53,9 @@
  <title>about us page</title>
  <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Tangerine">
-		  <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=serif">
+
 	    <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Comic Sans MS">
+      href="https://fonts.googleapis.com/css?family=Tangerine">
  
  <style>
  body{
@@ -73,7 +72,7 @@ font-size:79px;}
 </style>
 <style>
 h2{
-font-family:Comic Sans MS;
+font-family:Tangerine;
 font-size:79px;
 color:#DBA912;
 text-shadow: 4px 4px 4px #aaa;
