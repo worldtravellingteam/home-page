@@ -174,7 +174,7 @@ border:7px dashed #A70AC7; }
 		 <li><a href="#">Chandigarh</a>
 		<li><a href="#">Andaman & NIcobar</a>
 		 <li><a href="#">Jharkhand</a>
-						 
+		 </ul>					 
 	 </ul>
 	</li>
 	 <li><a href="#">Nepal</a></li>
