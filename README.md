@@ -54,7 +54,7 @@
  <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Tangerine">
 		  <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=serif">
+      href="https://fonts.googleapis.com/css?family=comic sans ms">
  
  <style>
  body{
@@ -98,7 +98,7 @@ border:7px dashed #A70AC7; }
 
    <font size="10px" >
  <center><h1>welcome!</h1></center>
- <marquee bgcolor="#29B399" behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
+ <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
  
  
     <font size="4px" >
