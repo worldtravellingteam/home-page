@@ -82,7 +82,6 @@ text-shadow: 4px 4px 4px #aaa;
 list-style:none;}
 
 #menu ul li{
-background-color:black;
 border:1px solid white;
 width:120px;
 height:50px;
@@ -90,7 +89,7 @@ line-height:50px;
 text-align:center;
 float:left;
 position:relative;
-border-radius:8px;
+
 }
 #menu ul li a{
 color:white;
@@ -137,23 +136,12 @@ border:7px dashed #A70AC7; }
  <div id="menu">
  <ul>
   <li><a href="#">Home</a></li>
-   <li><a href="#">Countries</a>
-   <ul>
-    <li><a href="#">India</a>
-	
-	 <li><a href="#">Nepal</a></li>
-	  <li><a href="#">Switzerland</a></li>
-	   <li><a href="#">England</a></li>
-	      <li><a href="#">Australia</a></li>
-		     <li><a href="#">Sri lanka</a></li>
-			 </ul>
-   </li>
-    <li><a href="#">Account</a></li>
-	 <li><a href="#">About</a></li>
+   <li><a href="#">Countries</a><ul>
+<li><a href="#">Account</a></li>
+<li><a href="#">About</a></li>
 	 	
 </ul>
- </div>
- </body>
+ 
    
 
 
