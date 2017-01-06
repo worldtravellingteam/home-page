@@ -67,12 +67,13 @@ background-position:center;
  <style>
 h1{
 font-family:Tangerine;
-font-size:79px}
+font-size:79px;}
 </style>
 <style>
 h2{
 font-family:comic sans ms;
-color:#DBA912;}
+color:#DBA912;
+font-size:79px;}
 </style>
 <style>
 
