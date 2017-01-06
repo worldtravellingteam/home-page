@@ -79,9 +79,10 @@ text-shadow: 4px 4px 4px #aaa;
 }
 <style>
 #menu ul{
-list-style:none;}
+list-style-type:none;}
 
 #menu ul li{
+list-style-type:none;
 background-color:black;
 width:300px;
 height:50px;
@@ -91,11 +92,13 @@ float:left;
 
 }
 #menu ul li a{
+list-style-type:none;
 text-decoration:none;
 color:white;
 display:block;}
 
 #menu ul ul{
+list-style-type:none;
 position:absolute;
 display:none;}
 #menu ul li:hover > ul{
