@@ -71,7 +71,8 @@ font-size:79px}
 </style>
 <style>
 h2{
-font-family:comic sans ms;}
+font-family:comic sans ms;
+color:#DBA912;}
 </style>
 <style>
 
