@@ -105,7 +105,7 @@ display:none;}
 #menu ul li:hover > ul{
 display:block;}
 #menu ul ul ul{
-width:350px;
+width:370px;
 margin-left:260px;
 top:0px;}
 
