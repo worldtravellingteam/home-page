@@ -51,6 +51,11 @@
 
  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
  <title>about us page</title>
+ <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+		  <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=serif">
+ 
  <style>
  body{
  background-color:#E6A50E;
@@ -63,7 +68,7 @@ background-position:center;
  </style>
  <style>
 h1{
-font-family:comic sans ms;}
+font-family:Tangerine;}
 </style>
 <style>
 h2{
@@ -89,7 +94,7 @@ border:7px dashed #A70AC7; }
  a:visited{
  color:red;}
 </style>
- </head>
+</head>
  <body>
 
    <font size="10px" >
