@@ -185,7 +185,6 @@ border:7px dashed #A70AC7; }
 			 </ul>
    </li>
     <li><a href="#">Account</a></li>
-	 <li><a href="#">About</a></li>
 	 	
 </ul>
  </div>
