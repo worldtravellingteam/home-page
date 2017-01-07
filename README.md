@@ -87,7 +87,7 @@ list-style-type:none;}
 font-size:15px;
 list-style-type:none;
 background-color:black;
-width:180px;
+width:196px;
 height:50px;
 line-height:50px;
 text-align:center;
@@ -110,7 +110,7 @@ display:none;}
 display:block;}
 #menu ul ul ul{
 width:370px;
-margin-left:180px;
+margin-left:196px;
 top:0px;}
 
 </style>
