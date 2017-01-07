@@ -116,8 +116,8 @@ top:0px;}
 
 </style>
 <style>
- img{
-border:7px dashed #A70AC7; }
+ img[data-type="image"]{
+border:7px dashed #A70AC7;}
 
 
 </style>
@@ -206,7 +206,7 @@ border:7px dashed #A70AC7; }
 
 9/15578381_621891311354859_8908027453765174776_n.jpg?
 
-oh=68b231e209b66be700e88efa7dda9af0&oe=58E5D450" width="150">
+oh=68b231e209b66be700e88efa7dda9af0&oe=58E5D450" width="150" data-type="image">
      
  <a href="https://www.facebook.com/profile.php?id=100006019870063" target="_blank">click here</a> to visit facebook profile
 
@@ -215,7 +215,7 @@ oh=68b231e209b66be700e88efa7dda9af0&oe=58E5D450" width="150">
 
 9/14606276_972384166220956_2960383577954918308_n.jpg?
 
-oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150"> 
+oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image"> 
   <a href="https://www.facebook.com/aashishkumar.pandey.9?pnref=story" target="_blank">click here</a> to visit facebook profile
  
 
