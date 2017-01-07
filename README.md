@@ -85,6 +85,7 @@ list-style-type:none;}
 
 #menu ul li{
 font-size:15px;
+border:1px solid white;
 list-style-type:none;
 background-color:black;
 width:196px;
