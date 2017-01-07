@@ -60,7 +60,7 @@
  <style>
  body{
  background-color:#E6A50E;
-background-image:url(https://static1.squarespace.com/static/5641247ae4b089d6ff9787b7/t/564a0b41e4b03126ff2afe8c/1447693123689/travelling-movement-EC_13.jpg?format=2500w);
+background-image:url(http://wallup.net/wp-content/uploads/2016/01/73218-galaxy-Earth-Milky_Way-stars-space-planet-atmosphere.jpg);
 background-repeat:no-repeat;
 background-position:center;
 }
