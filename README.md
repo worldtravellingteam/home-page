@@ -117,8 +117,7 @@ top:0px;}
 </style>
 <style>
 
- img{
-border:7px dashed #A70AC7; }
+
 
 </style>
 <style>
