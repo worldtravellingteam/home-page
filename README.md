@@ -80,12 +80,14 @@ text-shadow: 4px 4px 4px #aaa;
 </style>
 <style>
 #menu ul{
+font-size:15px;
 list-style-type:none;}
 
 #menu ul li{
+font-size:15px;
 list-style-type:none;
 background-color:black;
-width:300px;
+width:180px;
 height:50px;
 line-height:50px;
 text-align:center;
@@ -93,12 +95,14 @@ float:left;
 
 }
 #menu ul li a{
+font-size:15px;
 list-style-type:none;
 text-decoration:none;
 color:white;
 display:block;}
 
 #menu ul ul{
+font-size:15px;
 list-style-type:none;
 position:absolute;
 display:none;}
@@ -106,7 +110,7 @@ display:none;}
 display:block;}
 #menu ul ul ul{
 width:370px;
-margin-left:300px;
+margin-left:180px;
 top:0px;}
 
 </style>
@@ -188,7 +192,9 @@ border:7px dashed #A70AC7; }
 		     <li><a href="#">Sri lanka</a></li>
 			 </ul>
    </li>
-    <li><a href="#">Account</a></li>
+    <li><a href="#">Gallery</a></li>
+     <li><a href="#">support</a></li>
+      <li><a href="#">About Us</a></li>
 	 	
 </ul>
  </div>
