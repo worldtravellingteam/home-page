@@ -145,7 +145,7 @@ border:7px dashed #A70AC7;}
 <body>
  <div id="menu">
  <ul>
-  <li><a href="#"><img src="https://scontent-lhr3-1.xx.fbcdn.net/v/t34.0-12/15941909_630740860469904_209188574_n.jpg?oh=ce2e8a98887f303a7d3da41a1bf7432a&oe=5872D69F" height="50px" width="50px"></a></li>
+  <li><a href="#"><img src="https://scontent-lhr3-1.xx.fbcdn.net/v/t34.0-12/15941909_630740860469904_209188574_n.jpg?oh=ce2e8a98887f303a7d3da41a1bf7432a&oe=5872D69F" height="45px" width="45px"></a></li>
    <li><a href="#">Countries</a>
    <ul>
     <li><a href="#">India</a>
