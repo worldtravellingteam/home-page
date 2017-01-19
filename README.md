@@ -135,6 +135,69 @@ border:7px dashed #A70AC7;}
  a:visited{
  color:red;}
 </style>
+<style>
+@keyframes slider{
+
+0%{
+left:0;
+}
+
+20%{
+left:0%
+}
+
+25%{
+left: -100%
+}
+
+45%{
+left: -100%;
+}
+
+50%{
+left: -200%;
+}
+
+70%{
+left: -200%;
+}
+
+75%{
+left: -300%;
+}
+
+95%{
+left: -300%;
+}
+
+100%{
+left: -400%;
+}
+
+}
+
+ 
+ #slider{
+ overflow: hidden;
+ }
+ 
+ #slider figure img{
+ width:20%;
+ float:left;
+ }
+
+#slider figure{
+width:500%;
+position: relative;
+border:5px solid black;
+margin:0;
+left:0;
+text-align:left;
+font-size:0;
+animation:20s slider infinite;
+}
+
+</style>
 </head>
  <body>
 
@@ -218,5 +281,13 @@ oh=68b231e209b66be700e88efa7dda9af0&oe=58E5D450" width="150" data-type="image">
 oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image"> 
   <a href="https://www.facebook.com/aashishkumar.pandey.9?pnref=story" target="_blank">click here</a> to visit facebook profile
  
-
+ <div id="slider">
+  <figure>
+    <img src="http://static.wixstatic.com/media/25c81b_4bfd0e2ab835b6edcdf56853ac0c6554.jpg_srz_980_430_85_22_0.50_1.20_0.00_jpg_srz"   width="975" height="430"/>
+	<img src="http://www.statravel.co.uk/travel-blog/wp-content/uploads/2013/10/A-Z-of-backpacking-980.jpg"/>
+	<img src="http://static.wixstatic.com/media/2a6c9808fd5b4855b94562f38feecd7b.jpg_srz_980_430_85_22_0.50_1.20_0.00_jpg_srz" width="975" height="430"/>
+	<img src="http://static.wixstatic.com/media/75bcd981c53d4e44bcb7f382eedfbd45.jpg_srz_980_430_85_22_0.50_1.20_0.00_jpg_srz" width="975" height="430"/>
+	<img src="http://static.wixstatic.com/media/de506d_8608d53c319f4c87b3dd29f77d0c8f55.jpg_srz_980_649_85_22_0.50_1.20_0.00_jpg_srz" width="975" height="430"/>
+	</figure>
+	</div>
 
