@@ -285,9 +285,9 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
   <figure>
     <img src="http://static.wixstatic.com/media/25c81b_4bfd0e2ab835b6edcdf56853ac0c6554.jpg_srz_980_430_85_22_0.50_1.20_0.00_jpg_srz"   width="975" height="430"/>
 	<img src="http://www.statravel.co.uk/travel-blog/wp-content/uploads/2013/10/A-Z-of-backpacking-980.jpg"/>
-	<img src="http://static.wixstatic.com/media/2a6c9808fd5b4855b94562f38feecd7b.jpg_srz_980_430_85_22_0.50_1.20_0.00_jpg_srz" width="975" height="430"/>
-	<img src="http://static.wixstatic.com/media/75bcd981c53d4e44bcb7f382eedfbd45.jpg_srz_980_430_85_22_0.50_1.20_0.00_jpg_srz" width="975" height="430"/>
-	<img src="http://static.wixstatic.com/media/de506d_8608d53c319f4c87b3dd29f77d0c8f55.jpg_srz_980_649_85_22_0.50_1.20_0.00_jpg_srz" width="975" height="430"/>
+	<img src="http://static.wixstatic.com/media/2a6c9808fd5b4855b94562f38feecd7b.jpg_srz_980_430_85_22_0.50_1.20_0.00_jpg_srz" width="970" height="430"/>
+	<img src="http://static.wixstatic.com/media/75bcd981c53d4e44bcb7f382eedfbd45.jpg_srz_980_430_85_22_0.50_1.20_0.00_jpg_srz" width="970" height="430"/>
+	<img src="http://static.wixstatic.com/media/de506d_8608d53c319f4c87b3dd29f77d0c8f55.jpg_srz_980_649_85_22_0.50_1.20_0.00_jpg_srz" width="970" height="430"/>
 	</figure>
 	</div>
 
