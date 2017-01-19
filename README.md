@@ -60,7 +60,7 @@
  <style>
  body{
  background-color:#E6A50E;
-background-image:url(http://wallup.net/wp-content/uploads/2016/01/73218-galaxy-Earth-Milky_Way-stars-space-planet-atmosphere.jpg);
+background-image:url("http://www.statravel.co.uk/travel-blog/wp-content/uploads/2013/10/A-Z-of-backpacking-980.jpg");
 background-repeat:no-repeat;
 background-position:center;
 }
