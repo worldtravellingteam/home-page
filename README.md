@@ -189,7 +189,7 @@ left: -400%;
 #slider figure{
 width:500%;
 position: relative;
-border:5px solid black;
+border:2px solid black;
 margin:0;
 left:0;
 text-align:left;
