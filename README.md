@@ -60,7 +60,7 @@
  <style>
  body{
  background-color:green;
-background-image:url("");
+background-image:url("https://thenorwichradical.files.wordpress.com/2016/04/travelling-1024x576.jpg");
 background-repeat:no-repeat;
 background-position:center;
 }
