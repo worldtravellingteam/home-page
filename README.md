@@ -213,7 +213,7 @@ font-size:9pt;
 	 height:200px;
 	 	float:left;
 		 line-height:170px;
-	 background-color:white;
+	 background-color:green;
 	  border:10px solid red;
 text-decoration:none;
 	 color:#fff;
@@ -229,7 +229,7 @@ text-decoration:none;
 	 float:left;
 	 	 border-radius:200px;
 	 border:10px solid red;
-	 background-color:white;
+	 background-color:green;
 	 line-height:160px;
 	 font-family:Tangerine;
 	 font-size:90px;
@@ -250,7 +250,7 @@ width:400px;
 	 height:200px;
 	 	float:right;
 		 line-height:160px;
-	 background-color:white;
+	 background-color:green;
 	  border:10px solid red;
 text-decoration:none;
 	 color:#fff;
@@ -266,7 +266,7 @@ text-decoration:none;
 	 float:right;
 	 	 border-radius:200px;
 	 border:10px solid red;
-	 background-color:white;
+	 background-color:green;
 	 line-height:160px;
 	 font-family:Tangerine;
 	 transition:all 0.5s;
@@ -293,7 +293,8 @@ text-decoration:none;
 color:red;
 font-size:40px;
 }
-  
+  ul{
+ list-style-type:none;}
   </style>
 </head>
  <body>
