@@ -199,12 +199,12 @@ animation:20s slider infinite;
 
 </style>
 
-
+<style>
 .copy{
 color:white;
 font-size:9pt;
 }
-
+</style>
     <style>
    
 
