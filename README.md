@@ -59,7 +59,7 @@
  
  <style>
  body{
- background-color:#CCCCCC;
+ background-color:#878A91;
 background-image:url("");
 background-repeat:no-repeat;
 background-position:center;
@@ -213,7 +213,7 @@ font-size:9pt;
 	 height:200px;
 	 	float:left;
 		 line-height:170px;
-	 background-color:#CCCCCC;
+	 background-color:#878A91;
 	  border:10px solid white;
 text-decoration:none;
 	 color:#fff;
@@ -229,7 +229,7 @@ text-decoration:none;
 	 float:left;
 	 	 border-radius:200px;
 	 border:10px solid white;
-	 background-color:#CCCCCC;
+	 background-color:#878A91;
 	 line-height:160px;
 	 font-family:Tangerine;
 	 font-size:90px;
@@ -250,7 +250,7 @@ width:400px;
 	 height:200px;
 	 	float:right;
 		 line-height:160px;
-	 background-color:#CCCCCC;
+	 background-color:#878A91;
 	  border:10px solid white;
 text-decoration:none;
 	 color:#fff;
@@ -266,7 +266,7 @@ text-decoration:none;
 	 float:right;
 	 	 border-radius:200px;
 	 border:10px solid white;
-	 background-color:#CCCCCC;
+	 background-color:#878A91;
 	 line-height:160px;
 	 font-family:Tangerine;
 	 transition:all 0.5s;
