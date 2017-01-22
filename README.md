@@ -59,7 +59,7 @@
  
  <style>
  body{
- background-color:;
+ background-color:#CCCCCC;
 background-image:url("");
 background-repeat:no-repeat;
 background-position:center;
@@ -213,8 +213,8 @@ font-size:9pt;
 	 height:200px;
 	 	float:left;
 		 line-height:170px;
-	 background-color:green;
-	  border:10px solid red;
+	 background-color:#CCCCCC;
+	  border:10px solid white;
 text-decoration:none;
 	 color:#fff;
 	 font-family:Tangerine;
@@ -228,8 +228,8 @@ text-decoration:none;
 	 height:200px;
 	 float:left;
 	 	 border-radius:200px;
-	 border:10px solid red;
-	 background-color:green;
+	 border:10px solid white;
+	 background-color:#CCCCCC;
 	 line-height:160px;
 	 font-family:Tangerine;
 	 font-size:90px;
@@ -250,8 +250,8 @@ width:400px;
 	 height:200px;
 	 	float:right;
 		 line-height:160px;
-	 background-color:green;
-	  border:10px solid red;
+	 background-color:#CCCCCC;
+	  border:10px solid white;
 text-decoration:none;
 	 color:#fff;
 	 font-family:Tangerine;
@@ -265,8 +265,8 @@ text-decoration:none;
 	 height:200px;
 	 float:right;
 	 	 border-radius:200px;
-	 border:10px solid red;
-	 background-color:green;
+	 border:10px solid white;
+	 background-color:#CCCCCC;
 	 line-height:160px;
 	 font-family:Tangerine;
 	 transition:all 0.5s;
@@ -281,7 +281,7 @@ text-decoration:none;
 list-style-type:none;
 text-decoration:none;
 	 text-align:center;
-color:red;
+color:white;
 font-size:40px;
 
 }
@@ -290,7 +290,7 @@ font-size:40px;
 list-style-type:none;
 text-decoration:none;
 	 text-align:center;
-color:red;
+color:white;
 font-size:40px;
 }
   ul{
