@@ -393,10 +393,6 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  
  </div>
 
-</body>
-<body>
-
-
 <div id="circleq">
 <ul>
  <li><a href="#"><b>Our Services</b></a></li>
