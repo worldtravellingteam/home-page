@@ -224,7 +224,7 @@ text-decoration:none;
 	 	 border-radius:200px;
 	 border:10px solid red;
 	 background-color:white;
-	 line-height:160px;
+	 line-height:150px;
 	 font-family:Tangerine;
 	 font-size:90px;
 	 transition:all 0.5s;
