@@ -59,7 +59,7 @@
  
  <style>
  body{
- background-color:white;
+ background-color:#5E636E ;
 background-image:url("");
 background-repeat:no-repeat;
 background-position:center;
