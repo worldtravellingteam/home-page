@@ -203,29 +203,28 @@ animation:20s slider infinite;
    
 
      #squareq{
-	 width:200px;
+	 width:400px;
 	 height:200px;
 	 	float:left;
-		 line-height:0px;
+		 line-height:160px;
 	 background-color:white;
 	  border:10px solid red;
 text-decoration:none;
 	 color:#fff;
 	 font-family:Tangerine;
-	 font-size:90px;
 	 text-align:center;
 	 }
 	 
 
 	 
 	#squareq:hover{
-	  width:200px;
+	  width:400px;
 	 height:200px;
 	 float:left;
 	 	 border-radius:200px;
 	 border:10px solid red;
 	 background-color:white;
-	 line-height:0px;
+	 line-height:160px;
 	 font-family:Tangerine;
 	 font-size:90px;
 	 transition:all 0.5s;
@@ -241,7 +240,7 @@ text-decoration:none;
   
   
      #circleq{
-width:200px;
+width:400px;
 	 height:200px;
 	 	float:right;
 		 line-height:160px;
@@ -256,7 +255,7 @@ text-decoration:none;
 
 	 
 	 #circleq:hover{
-  width:200px;
+  width:400px;
 	 height:200px;
 	 float:right;
 	 	 border-radius:200px;
