@@ -401,8 +401,9 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  
  </body>
 
+<br><br>
 
-      <td valign="middle" width="766" background="images/last.jpg" height="25" align="right" class="copy"><a href="">Privacy Policy</a>&nbsp;&nbsp;&nbsp;<a href="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;Copyright (c) worldtravelling.in  2016&nbsp;&nbsp;&nbsp;</td>
+      <td width="766" background="" height="25" align="right" class="copy"><a href="">Privacy Policy</a>&nbsp;&nbsp;&nbsp;<a href="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;Copyright (c) worldtravelling.in  2016&nbsp;&nbsp;&nbsp;</td>
    
      
 
