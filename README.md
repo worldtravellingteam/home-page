@@ -206,7 +206,7 @@ animation:20s slider infinite;
 	 width:400px;
 	 height:200px;
 	 	float:left;
-		 line-height:160px;
+		 line-height:150px;
 	 background-color:white;
 	  border:10px solid red;
 text-decoration:none;
