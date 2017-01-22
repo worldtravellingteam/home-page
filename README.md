@@ -382,13 +382,13 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
 	<img src="http://static.wixstatic.com/media/de506d_8608d53c319f4c87b3dd29f77d0c8f55.jpg_srz_980_649_85_22_0.50_1.20_0.00_jpg_srz" width="970" height="430"/>
 	</figure>
 	</div>
-<br><br><br>
+<br><br>
 	
 	<body>
 
 <div id="squareq">
 <ul>
- <li><a href="#"><b>Request a<br><br> Question</b></a></li>
+ <li><a href="#"><b>Request a Question</b></a></li>
  </ul>
  
  </div>
