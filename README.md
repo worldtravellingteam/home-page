@@ -206,7 +206,7 @@ animation:20s slider infinite;
 	 width:400px;
 	 height:200px;
 	 	float:left;
-		 line-height:150px;
+		 line-height:160px;
 	 background-color:white;
 	  border:10px solid red;
 text-decoration:none;
@@ -224,7 +224,7 @@ text-decoration:none;
 	 	 border-radius:200px;
 	 border:10px solid red;
 	 background-color:white;
-	 line-height:150px;
+	 line-height:160px;
 	 font-family:Tangerine;
 	 font-size:90px;
 	 transition:all 0.5s;
@@ -387,7 +387,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
 
 <div id="squareq">
 <ul>
- <li><a href="#"><b>Request a Question</b></a></li>
+ <li><a href="#"><b>Request a<br><br> Question</b></a></li>
  </ul>
  
  </div>
