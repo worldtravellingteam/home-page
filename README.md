@@ -60,7 +60,7 @@
  <style>
  body{
  background-color:white;
-background-image:url("http://get-a-wingman.com/wp-content/uploads/2016/01/sea-sky-beach-holiday-11.jpg");
+background-image:url("");
 background-repeat:no-repeat;
 background-position:center;
 }
