@@ -296,6 +296,70 @@ font-size:40px;
   ul{
  list-style-type:none;}
   </style>
+       <style>
+
+.parallax{
+height:100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.first{
+background-image:url(http://image3.mouthshut.com/images/imagesp/925042418s.jpg);
+
+}
+
+.second{
+background-image:url(http://top10hotelbookingsites.webs.com/besthotelsites-1.jpg);
+}
+  
+  
+.three{
+background-image:url(http://spanews.vn/wp-content/uploads/2015/12/thiet-ke-spa-nhu-the-nao-2.jpg);
+}
+
+.four{
+background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghini-huracan--3_800x0w.jpg);
+height:60%;
+}
+
+  
+ 
+  .band h1{
+  background-color:blue;
+  font-family:helvetica;
+  font-weight:300;
+  text-align:center;
+  font-size:275%;
+  padding-top:20px;
+  padding-bottom:20px;
+  }
+  
+  .caption{
+  background:rgba(255, 255, 255, 0.4);
+font-family:helvetica;
+
+
+font-size:160%;
+font-weight:300;
+
+position:absolute;
+top:50%;
+right:5%;
+transform: translate(0%, -50%);
+
+}
+
+.left{
+position:absolute;
+top:50%;
+left:5%;
+transform: translate(0%, -50%);
+}
+  </style>
+  
 </head>
  <body>
 
@@ -407,6 +471,49 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  </div>
  
  </body>
+ <body>
+
+<div class="parallax first">
+ <div class="caption">
+  <div class="text">
+
+ </div>
+</div>
+</div>
+
+<div class="band">
+<h1>we provide best Restaurants</h1>
+</div>
+
+<div class="parallax second">
+ <div class="caption">
+ <div class="text">
+<h1></h1>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="band">
+ <h1>hotels</h1>
+ </div>
+ 
+ <div class="parallax three">
+ <div class="caption left">
+ <div class="caption-text">
+ </div>
+ </div>
+ </div>
+ 
+ <div class="band">
+ <h1>Spa centre</h1>
+ <div>
+ 
+ <div class="parallax four">
+ <div class="caption">
+ <div class="text">
+  </div>
+  </div>
+ 
 
 <br><br><br>
 
