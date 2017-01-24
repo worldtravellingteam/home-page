@@ -296,7 +296,8 @@ font-size:40px;
   ul{
  list-style-type:none;}
   </style>
-       <style>
+  
+  <style>
 
 .parallax{
 height:100%;
@@ -305,7 +306,8 @@ background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 }
-
+</style>
+<style>
 .first{
 background-image:url(http://image3.mouthshut.com/images/imagesp/925042418s.jpg);
 height:60%;
@@ -326,8 +328,8 @@ height:60%;
 background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghini-huracan--3_800x0w.jpg);
 height:60%;
 }
-
-  
+</style>
+  <style>
  
   .band h1{
   background-color:#878A91;
@@ -499,7 +501,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  
  <div class="parallax three">
  <div class="caption left">
- <div class="caption-text">
+ <div class="text">
  </div>
  </div>
  </div>
