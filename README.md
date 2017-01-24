@@ -299,35 +299,46 @@ font-size:40px;
   
   <style>
 
-.parallax{
+.parallaxfirst{
 height:100%;
 background-attachment:fixed;
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
-}
-</style>
-<style>
-.first{
 background-image:url(http://image3.mouthshut.com/images/imagesp/925042418s.jpg);
-height:60%;
 }
 
-.second{
+
+.parallaxsecond{
+height:100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
 background-image:url(http://top10hotelbookingsites.webs.com/besthotelsites-1.jpg);
-height:60%;
 }
   
   
-.three{
+.parallaxthree{
+height:100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
 background-image:url(http://spanews.vn/wp-content/uploads/2015/12/thiet-ke-spa-nhu-the-nao-2.jpg);
-height:60%;
 }
 
-.four{
+.parallaxfour{
+height:100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
 background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghini-huracan--3_800x0w.jpg);
 height:60%;
 }
+
+  
 </style>
   <style>
  
@@ -475,7 +486,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  <br><br><br><br>
  <body>
 
-<div class="parallax first">
+<div class="parallaxfirst">
  <div class="caption">
   <div class="text">
 
@@ -487,7 +498,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
 <h1>Restaurants</h1>
 </div>
 
-<div class="parallax second">
+<div class="parallaxsecond">
  <div class="caption">
  <div class="text">
 <h1></h1>
@@ -499,7 +510,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  <h1>hotels</h1>
  </div>
  
- <div class="parallax three">
+ <div class="parallaxthree">
  <div class="caption left">
  <div class="text">
  </div>
@@ -510,7 +521,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  <h1>Spa centre</h1>
  <div>
  
- <div class="parallax four">
+ <div class="parallaxfour">
  <div class="caption">
  <div class="text">
   </div>
