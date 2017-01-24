@@ -330,7 +330,7 @@ height:60%;
   
  
   .band h1{
-  background-color:white;
+  background-color:#878A91;
   font-family:helvetica;
   font-weight:300;
   text-align:center;
@@ -470,7 +470,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  </div>
  
  </body>
- <br><br>
+ <br><br><br><br>
  <body>
 
 <div class="parallax first">
@@ -482,7 +482,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
 </div>
 
 <div class="band">
-<h1>we provide best Restaurants</h1>
+<h1>Restaurants</h1>
 </div>
 
 <div class="parallax second">
@@ -513,7 +513,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  <div class="text">
   </div>
   </div>
-  </body>
+  </div>
  
 
 <br><br><br>
