@@ -308,16 +308,18 @@ background-size:cover;
 
 .first{
 background-image:url(http://image3.mouthshut.com/images/imagesp/925042418s.jpg);
-
+height:60%;
 }
 
 .second{
 background-image:url(http://top10hotelbookingsites.webs.com/besthotelsites-1.jpg);
+height:60%;
 }
   
   
 .three{
 background-image:url(http://spanews.vn/wp-content/uploads/2015/12/thiet-ke-spa-nhu-the-nao-2.jpg);
+height:60%;
 }
 
 .four{
@@ -328,7 +330,7 @@ height:60%;
   
  
   .band h1{
-  background-color:blue;
+  background-color:white;
   font-family:helvetica;
   font-weight:300;
   text-align:center;
@@ -338,13 +340,10 @@ height:60%;
   }
   
   .caption{
-  background:rgba(255, 255, 255, 0.4);
+background:rgba(255, 255, 255, 0.4);
 font-family:helvetica;
-
-
 font-size:160%;
 font-weight:300;
-
 position:absolute;
 top:50%;
 right:5%;
@@ -471,6 +470,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  </div>
  
  </body>
+ <br><br>
  <body>
 
 <div class="parallax first">
@@ -513,6 +513,7 @@ oh=0a2bf4f9c9e92eb6d837bbecd79fb9ed&oe=58E0B299" width="150" data-type="image">
  <div class="text">
   </div>
   </div>
+  </body>
  
 
 <br><br><br>
