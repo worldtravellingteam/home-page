@@ -60,7 +60,7 @@
  <style>
  body{
  background-color:#878A91;
-background-image:url("http://img06.deviantart.net/339c/i/2013/264/e/a/png_wall__1_by_stockpremader-d6n7vul.png");
+background-image:url("http://cdn.wallpapersafari.com/15/72/bBOSYV.png");
 background-repeat:no-repeat;
 background-position:center;
 }
