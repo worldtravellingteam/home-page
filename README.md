@@ -60,7 +60,7 @@
  <style>
  body{
  background-color:#878A91;
-background-image:url("http://cdn.wallpapersafari.com/15/72/bBOSYV.png");
+background-image:url("");
 background-repeat:no-repeat;
 background-position:center;
 }
