@@ -60,7 +60,7 @@
  <style>
  body{
  background-color:#878A91;
-background-image:url(http://bsnscb.com/data/out/209/27358653-wall-wallpapers.jpg);
+background-image:url("http://bsnscb.com/data/out/209/27358653-wall-wallpapers.jpg");
 background-repeat:no-repeat;
 background-position:center;
 }
