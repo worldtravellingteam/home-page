@@ -65,30 +65,7 @@ background-repeat:no-repeat;
 background-position:center;
 }
  </style>
- <style>
-  #heading ul{
-   background-color:black;
-   height:50px;
-   width:980px;
 
-   }
-   #heading ul li{
-   font-family:;
-   font-size:15px;
-list-style-type:none;
-line-height:50px;
-text-align:center;
-   }
-   
-   #heading ul li a{
-   color:white;
-   list-style-type:none;
-text-decoration:none;
-float:left;
-}
-
- 
- </style>
  <style>
 h1{
 font-family:Tangerine;
@@ -323,21 +300,10 @@ font-size:40px;
   
   
 </head>
- <body>
-<div id="heading">
-<ul>
-<li><b><a href="">Email:--worldtravellingteam@gmail.com</a></b></li>
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href=""><img src="http://static.wixstatic.com/media/b60e69_28be9da484ad4900ad58fe7db4885ce5.png" height="45px" width="45px"></a>
-<a href=""><img src="http://bizgropartners.com/wp-content/uploads/2016/03/twitter.png" height="45px" width="45px"></a>
-<a href=""><img src="https://cdn4.iconfinder.com/data/icons/social-icons-6/40/instagram-512.png" height="45px" width="45px"></a>
-<a href=""><img src="https://careers.juniper.net/careers/careers/img/googleplus-circle.png" height="45px" width="45px"></a>
-
-</ul>
+<body>
 
  <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
- 
+ </body>
 <body>
  <div id="menu">
  <ul>
