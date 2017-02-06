@@ -63,6 +63,7 @@
 background-image:url("");
 background-repeat:no-repeat;
 background-position:center;
+Background-size: cover;
 }
  </style>
 
