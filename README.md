@@ -345,7 +345,7 @@ font-size:40px;
 								   <li><a href="#">Dadar & Nagar</a></li>
 								    <li><a href="#">Chandigarh</a></li>
 									<li><a href="#">Andaman & NIcobar</a></li>
-									 <li><a href="https://github.com/worldtravellingteam/india/blob/master/README.md">Jharkhand</a></li>
+									 <li><a href="#">Jharkhand</a></li>
 						 
 	 </ul>
 	</li>
