@@ -211,6 +211,13 @@ font-size:40px;
 list-style-type:none;}
  </style>
  
+ <style>
+.copy{
+color:white;
+font-size:9pt;
+}
+</style>
+ 
  
 
 </head>
@@ -243,7 +250,7 @@ list-style-type:none;}
 </form>
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <div id="squareq">
