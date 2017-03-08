@@ -107,11 +107,9 @@ float:right;
 
 </ul>
 
-
-
-
-
 </div>
+
+ <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
 
 
 
