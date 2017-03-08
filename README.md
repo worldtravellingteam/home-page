@@ -104,7 +104,7 @@ text-shadow: 4px 4px 4px #aaa;
    height:500px;
      margin:0 auto;
   background-color:red;
-   background-image:url("https://thedreamcatcherinme.files.wordpress.com/2014/07/travelling-1024x576.jpg");
+   background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/world.png?raw=true");
    }
    .buttons input[type="text"]{
    width:400px;
