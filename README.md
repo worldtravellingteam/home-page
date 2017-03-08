@@ -58,6 +58,10 @@
       href="https://fonts.googleapis.com/css?family=Tangerine">
       
         <style>
+	 body{
+  background-color:#878A91;
+  background-size:cover;
+    }
  body{
    background-image:url();
     }
