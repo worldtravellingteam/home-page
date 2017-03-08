@@ -103,7 +103,6 @@ text-shadow: 4px 4px 4px #aaa;
    width:975px;
    height:484px;
      margin:0 auto;
-  background-color:red;
    background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/world.png?raw=true");
    }
    .buttons input[type="text"]{
