@@ -57,7 +57,7 @@
 	    <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Tangerine">
       
-        <style>
+    
 	 body{
   background-color:#878A91;
   background-size:cover;
@@ -96,7 +96,7 @@ float:right;
    height:500px;
      margin:0 auto;
   background-color:red;
-   background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/travelling.png?raw=true");
+   background-image:url("https://thedreamcatcherinme.files.wordpress.com/2014/07/travelling-1024x576.jpg");
    }
    .buttons input[type="text"]{
    width:400px;
@@ -110,7 +110,7 @@ float:right;
 	    margin:0 auto;
 	  }
    </style>
-      </style>
+  
 
   
 
