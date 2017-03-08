@@ -115,8 +115,96 @@ text-shadow: 4px 4px 4px #aaa;
 	  }
    </style>
   
+     
+   <style>
+        #squareq{
+	 width:400px;
+	 height:200px;
+	 	float:left;
+		 line-height:170px;
+	 background-color:#878A91;
+	  border:10px solid white;
+text-decoration:none;
+	 color:#fff;
+	 font-family:Tangerine;
+	 text-align:center;
+	  text-decoration:none;
+	 }
+	 
 
-  
+	 
+	#squareq:hover{
+	  width:400px;
+	 height:200px;
+	 float:left;
+	 border:10px solid white;
+	 background-color:#878A91;
+	 line-height:160px;
+	 font-family:Tangerine;
+	 font-size:90px;
+	 transition:all 0.5s;
+	 text-shadow: 4px 4px 4px #aaa;
+	 text-align:center;
+	  text-decoration:none;
+
+}
+
+ 
+     #circleq{
+  width:400px;
+	 height:200px;
+	 float:right;
+	 border:10px solid white;
+	 background-color:#878A91;
+	 line-height:160px;
+	 font-family:Tangerine;
+	 transition:all 0.5s;
+	 text-shadow: 4px 4px 4px #aaa;
+	 text-align:center;
+	  text-decoration:none;
+
+     }
+	 
+
+	 
+	 #circleq:hover{
+  width:400px;
+	 height:200px;
+	 float:right;
+	 	 border-radius:200px;
+	 border:10px solid white;
+	 background-color:#878A91;
+	 line-height:160px;
+	 font-family:Tangerine;
+	 transition:all 0.5s;
+	 text-shadow: 4px 4px 4px #aaa;
+	 text-align:center;
+	 text-decoration:none;
+
+}
+
+
+
+ 
+    
+  #squareq ul li a{
+list-style-type:none;
+text-decoration:none;
+	 text-align:center;
+color:white;
+font-size:40px;
+
+}
+
+#circleq ul li a{
+list-style-type:none;
+text-decoration:none;
+	 text-align:center;
+color:white;
+font-size:40px;
+}
+
+</style>
 
 </head>
 
@@ -149,6 +237,22 @@ text-shadow: 4px 4px 4px #aaa;
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div id="squareq">
+<ul>
+ <li><a href="#"><b>Request a Question</b></a></li>
+ </ul>
+ 
+ </div>
+
+<div id="circleq">
+<ul>
+ <li><a href="#"><b>Our Services</b></a></li>
+ </ul>
+ 
+ </div>
+ 
 
 
 
