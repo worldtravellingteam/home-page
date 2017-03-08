@@ -119,82 +119,82 @@ text-shadow: 4px 4px 4px #aaa;
 	  }
    </style>
   
-     
    <style>
-        #squareq{
-	 width:400px;
-	 height:200px;
-	 	float:left;
-		 line-height:170px;
-	 background-color:#878A91;
-	  border:10px solid white;
+  
+
+    #squareq{
+  width:400px;
+  height:200px;
+   float:left;
+    line-height:170px;
+  background-color:#878A91;
+   border:10px solid white;
 text-decoration:none;
-	 color:#fff;
-	 font-family:Tangerine;
-	 text-align:center;
-	  text-decoration:none;
-	 }
-	 
+  color:#fff;
+  font-family:Tangerine;
+  text-align:center;
+  }
+  
 
-	 
-	#squareq:hover{
-	  width:400px;
-	 height:200px;
-	 float:left;
-	 border:10px solid white;
-	 background-color:#878A91;
-	 line-height:160px;
-	 font-family:Tangerine;
-	 font-size:90px;
-	 transition:all 0.5s;
-	 text-shadow: 4px 4px 4px #aaa;
-	 text-align:center;
-	  text-decoration:none;
-
-}
-
- 
-     #circleq{
-  width:400px;
-	 height:200px;
-	 float:right;
-	 border:10px solid white;
-	 background-color:#878A91;
-	 line-height:160px;
-	 font-family:Tangerine;
-	 transition:all 0.5s;
-	 text-shadow: 4px 4px 4px #aaa;
-	 text-align:center;
-	  text-decoration:none;
-
-     }
-	 
-
-	 
-	 #circleq:hover{
-  width:400px;
-	 height:200px;
-	 float:right;
-	 	 border-radius:200px;
-	 border:10px solid white;
-	 background-color:#878A91;
-	 line-height:160px;
-	 font-family:Tangerine;
-	 transition:all 0.5s;
-	 text-shadow: 4px 4px 4px #aaa;
-	 text-align:center;
-	 text-decoration:none;
+  
+ #squareq:hover{
+   width:400px;
+  height:200px;
+  float:left;
+    border-radius:200px;
+  border:10px solid white;
+  background-color:#878A91;
+  line-height:160px;
+  font-family:Tangerine;
+  font-size:90px;
+  transition:all 0.5s;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align:center;
 
 }
 
-
-
+  
+ </style> 
  
-    
-  #squareq ul li a{
+ <style>
+ 
+ 
+    #circleq{
+width:400px;
+  height:200px;
+   float:right;
+    line-height:160px;
+  background-color:#878A91;
+   border:10px solid white;
+text-decoration:none;
+  color:#fff;
+  font-family:Tangerine;
+  text-align:center;
+    }
+  
+
+  
+  #circleq:hover{
+ width:400px;
+  height:200px;
+  float:right;
+    border-radius:200px;
+  border:10px solid white;
+  background-color:#878A91;
+  line-height:160px;
+  font-family:Tangerine;
+  transition:all 0.5s;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align:center;
+
+}
+
+
+   
+ #squareq ul li a{
 list-style-type:none;
 text-decoration:none;
-	 text-align:center;
+  text-align:center;
 color:white;
 font-size:40px;
 
@@ -203,12 +203,15 @@ font-size:40px;
 #circleq ul li a{
 list-style-type:none;
 text-decoration:none;
-	 text-align:center;
+  text-align:center;
 color:white;
 font-size:40px;
 }
-
-</style>
+ ul{
+list-style-type:none;}
+ </style>
+ 
+ 
 
 </head>
 
@@ -256,7 +259,9 @@ font-size:40px;
  </ul>
  
  </div>
- 
+<br><br><br><br><br><br><br>
 
 
-
+     <td valign="middle" width="766" background="" height="25" align="right" class="copy"><a href="">Privacy Policy</a>&nbsp;&nbsp;&nbsp;<a href="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright (c) worldtravelling.in  2016&nbsp;&nbsp;&nbsp;</td>
+  
+    
