@@ -214,7 +214,7 @@ list-style-type:none;}
  <style>
 .copy{
 color:white;
-font-size:9pt;
+font-size:20px;
 }
 </style>
  
