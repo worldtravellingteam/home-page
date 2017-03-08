@@ -63,7 +63,7 @@
    #heading ul{
    background-color:black;
    height:50px;
-   width:970px;
+   width:1000px;
 
    }
    #heading ul li{
