@@ -85,6 +85,15 @@ float:left;
 float:right;
 }
 </style>
+
+<style>
+h2{
+font-family:Tangerine;
+font-size:79px;
+color:#DBA912;
+text-shadow: 4px 4px 4px #aaa;
+}
+</style>
    <style>
    .buttons{
    width:1000px;
