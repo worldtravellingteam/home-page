@@ -100,8 +100,8 @@ text-shadow: 4px 4px 4px #aaa;
 </style>
    <style>
    .buttons{
-   width:1000px;
-   height:500px;
+   width:975px;
+   height:484px;
      margin:0 auto;
   background-color:red;
    background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/world.png?raw=true");
