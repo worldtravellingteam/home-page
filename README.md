@@ -58,7 +58,7 @@
       href="https://fonts.googleapis.com/css?family=Tangerine">
       <style>
      body{
-  background-color:#878A91;
+  background-color:;
   background-size:cover;
     }
     </style>
@@ -127,8 +127,8 @@ text-shadow: 4px 4px 4px #aaa;
   height:200px;
    float:left;
     line-height:170px;
-  background-color:#878A91;
-   border:10px solid white;
+  background-color:white;
+   border:10px solid #878A91;
 text-decoration:none;
   color:#fff;
   font-family:Tangerine;
@@ -142,8 +142,8 @@ text-decoration:none;
   height:200px;
   float:left;
     border-radius:200px;
-  border:10px solid white;
-  background-color:#878A91;
+  border:10px solid #878A91;
+  background-color:white;
   line-height:160px;
   font-family:Tangerine;
   font-size:90px;
@@ -179,8 +179,8 @@ text-decoration:none;
   height:200px;
   float:right;
     border-radius:200px;
-  border:10px solid white;
-  background-color:#878A91;
+  border:10px solid #878A91;
+  background-color:white;
   line-height:160px;
   font-family:Tangerine;
   transition:all 0.5s;
@@ -195,7 +195,7 @@ text-decoration:none;
 list-style-type:none;
 text-decoration:none;
   text-align:center;
-color:white;
+color:#878A91;
 font-size:40px;
 
 }
@@ -204,7 +204,7 @@ font-size:40px;
 list-style-type:none;
 text-decoration:none;
   text-align:center;
-color:white;
+color:#878A91;
 font-size:40px;
 }
  ul{
