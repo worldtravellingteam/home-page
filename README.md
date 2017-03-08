@@ -56,8 +56,12 @@
 
 	    <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Tangerine">
-      
-    
+      <style>
+     body{
+  background-color:#878A91;
+  background-size:cover;
+    }
+    </style>
 
     <style>
    #heading ul{
@@ -236,7 +240,7 @@ font-size:40px;
 </form>
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <div id="squareq">
