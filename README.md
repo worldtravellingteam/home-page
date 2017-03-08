@@ -86,6 +86,25 @@ float:left;
 #heading ul li a a{
 float:right;
 }
+   <style>
+   .buttons{
+   width:1000px;
+   height:500px;
+     margin:0 auto;
+   background-image:url("http://www.theworldlinks.com/wp-content/uploads/2016/07/Travelling-with-Children.jpg");
+   }
+   .buttons input[type="text"]{
+   width:400px;
+  height:40px;
+  margin:0 auto;
+  }
+  
+      .buttons input[type="submit"]{
+	  height:40px;
+	  width:140px;
+	    margin:0 auto;
+	  }
+   </style>
 
    
    
@@ -110,13 +129,22 @@ float:right;
 </div>
 
  <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
-
-
-
-
+ 
 </body>
  
+<body>
 
+<div class="buttons">
+<form>
+<br><br><br><br><br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" placeholder="Enter Your City">
+<input type="submit" value="search">
+</form>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<body>
 
 
 
