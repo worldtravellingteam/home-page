@@ -164,8 +164,8 @@ width:400px;
   height:200px;
    float:right;
     line-height:160px;
-  background-color:#878A91;
-   border:10px solid white;
+  background-color:white;
+   border:10px solid #878A91;
 text-decoration:none;
   color:#fff;
   font-family:Tangerine;
@@ -243,8 +243,8 @@ font-size:20px;
 
 <div class="buttons">
 <form>
-<br><br><br><br><br><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br><br><br><br><br><br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <input type="text" placeholder="Enter Your City">
 <input type="submit" value="search">
 </form>
