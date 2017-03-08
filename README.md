@@ -91,7 +91,7 @@ float:right;
    width:1000px;
    height:500px;
      margin:0 auto;
-   background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/travelling.png");
+   background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/travelling.png?raw=true");
    }
    .buttons input[type="text"]{
    width:400px;
