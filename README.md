@@ -58,14 +58,8 @@
       href="https://fonts.googleapis.com/css?family=Tangerine">
       
     
-	 body{
-  background-color:#878A91;
-  background-size:cover;
-    }
- body{
-   background-image:url();
-    }
-    
+
+    <style>
    #heading ul{
    background-color:black;
    height:50px;
@@ -90,6 +84,7 @@ float:left;
 #heading ul li a a{
 float:right;
 }
+</style>
    <style>
    .buttons{
    width:1000px;
@@ -134,9 +129,6 @@ float:right;
 
  <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
  
-</body>
- 
-<body>
 
 <div class="buttons">
 <form>
@@ -148,8 +140,6 @@ float:right;
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<body>
-
 
 
 
