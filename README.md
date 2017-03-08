@@ -91,6 +91,7 @@ float:right;
    width:1000px;
    height:500px;
      margin:0 auto;
+  background-color:red;
    background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/travelling.png?raw=true");
    }
    .buttons input[type="text"]{
@@ -105,10 +106,9 @@ float:right;
 	    margin:0 auto;
 	  }
    </style>
+      </style>
 
-   
-   
-   </style>
+  
 
 </head>
 
@@ -145,8 +145,6 @@ float:right;
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<body>
-
-
 
 
 
