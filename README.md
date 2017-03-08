@@ -65,7 +65,7 @@
    #heading ul{
    background-color:black;
    height:50px;
-   width:1300px;
+   width:970px;
 
    }
    #heading ul li{
