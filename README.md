@@ -228,10 +228,10 @@ font-size:20px;
 <li><b><a href="">Email:--worldtravellingteam@gmail.com</a></b></li>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href=""><img src="http://static.wixstatic.com/media/b60e69_28be9da484ad4900ad58fe7db4885ce5.png" height="45px" width="45px"></a>
-<a href=""><img src="http://bizgropartners.com/wp-content/uploads/2016/03/twitter.png" height="45px" width="45px"></a>
-<a href="http://www.instagram.com/worldtravellingteam/"><img src="https://cdn4.iconfinder.com/data/icons/social-icons-6/40/instagram-512.png" height="45px" width="45px"></a>
-<a href=""><img src="https://careers.juniper.net/careers/careers/img/googleplus-circle.png" height="45px" width="45px"></a>
+<a href=""><img src="https://github.com/worldtravellingteam/photos-x/blob/master/fb.png?raw=true" height="45px" width="45px"></a>
+<a href=""><img src="https://github.com/worldtravellingteam/photos-x/blob/master/twitter.png?raw=true" height="45px" width="45px"></a>
+<a href="http://www.instagram.com/worldtravellingteam/"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/instagram.png?raw=true" height="45px" width="45px"></a>
+<a href=""><img src="https://github.com/worldtravellingteam/photos-x/blob/master/googleplus-circle.png?raw=true" height="45px" width="45px"></a>
 
 </ul>
 
