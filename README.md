@@ -91,7 +91,7 @@ float:right;
    width:1000px;
    height:500px;
      margin:0 auto;
-   background-image:url("http://www.theworldlinks.com/wp-content/uploads/2016/07/Travelling-with-Children.jpg");
+   background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/travelling.png");
    }
    .buttons input[type="text"]{
    width:400px;
