@@ -53,9 +53,6 @@
  <title>about us page</title>
  <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Tangerine">
-
-	    <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Tangerine">
       <style>
      body{
   background-color:;
