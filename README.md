@@ -231,7 +231,7 @@ font-size:20px;
 &nbsp;&nbsp;&nbsp;
 <a href="http://www.instagram.com/worldtravellingteam/"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/instagram.png?raw=true" height="45px" width="45px"></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://github.com/worldtravellingteam/india"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/googleplus-circle.png?raw=true" height="45px" width="45px"></a>
+<a href="https://worldtravelling.in/india/"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/googleplus-circle.png?raw=true" height="45px" width="45px"></a>
 
 </ul>
 
