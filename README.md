@@ -144,7 +144,7 @@ text-decoration:none;
   font-family:Tangerine;
   font-size:90px;
   transition:all 0.5s;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 4px 4px 4px white;
   text-align:center;
 
 }
@@ -180,7 +180,7 @@ text-decoration:none;
   line-height:160px;
   font-family:Tangerine;
   transition:all 0.5s;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 4px 4px 4px white;
   text-align:center;
 
 }
