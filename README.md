@@ -268,13 +268,13 @@ font-size:34px;
 
 <div id="dis">
 <ul>
-Here at worldtravelling.in we belive in helping you as much as we can.
+Here At Worldtravelling.in We Belive In Helping You As Much As We Can.
 <br>
-We as a team like travelling ourselves we have fresh and innovative minds at worldtravelling.in who are always up to give you the best information you need to visit a place
+We As A Team Like Travelling Ourselves We Have Fresh And Innovative Minds At Worldtravelling.in Who Are Always Up To Give You The Best Information You Need To Visit A Place.
 <br>
-As worldtravelling.in team we assure you that we ourselves have vistied each place ourselves....<br>
+As Worldtravelling.in Team We Assure You That We Ourselves Have Vistied Each Place Ourselves....<br>
 
-Best distions are suggested to yu according to your comfort and your need<br>
+Best Distions Are Suggested To You According To Your Comfort And Your Need :)<br>
 </ul>
 </div>
 <br><br><br><br><br><br><br><br>
