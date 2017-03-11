@@ -53,6 +53,8 @@
  <title>about us page</title>
  <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Tangerine">
+	   <link rel="stylesheet" type="text/css"
+	   href="https://fonts.googleapis.com/css?family=ComicSansMS">
       <style>
      body{
   background-color:#77773c;
@@ -215,16 +217,11 @@ font-size:20px;
 </style>
 
 <style>
-#dis{
-height:500px;
-width:1000px;
-background-color:white;
-}
-
 
   #dis ul{
 color:black;
-font-size:20px;
+font-size:34px;
+  font-family:Comic Sans MS;
 }
 
 
