@@ -277,7 +277,7 @@ As worldtravelling.in team we assure you that we ourselves have vistied each pla
 Best distions are suggested to yu according to your comfort and your need<br>
 </ul>
 </div>
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 <div id="squareq">
 <ul>
  <li><a href="#"><b>Request a Question</b></a></li>
