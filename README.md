@@ -213,6 +213,24 @@ color:white;
 font-size:20px;
 }
 </style>
+
+<style>
+#dis{
+height:500px;
+width:1000px;
+background-color:white;
+}
+
+
+  #dis ul{
+color:black;
+font-size:20px;
+}
+
+
+
+
+</style>
  
  
 
@@ -251,6 +269,17 @@ font-size:20px;
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+<div id="dis">
+<ul>
+Here at worldtravelling.in we belive in helping you as much as we can.
+<br>
+We as a team like travelling ourselves we have fresh and innovative minds at worldtravelling.in who are always up to give you the best information you need to visit a place
+<br>
+As worldtravelling.in team we assure you that we ourselves have vistied each place ourselves....<br>
+
+Best distions are suggested to yu according to your comfort and your need<br>
+</ul>
+</div>
 
 <div id="squareq">
 <ul>
