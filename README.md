@@ -228,6 +228,48 @@ font-size:34px;
 
 
 </style>
+      <style>
+
+.parallax{
+height:100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.first{
+background-image:url(http://image3.mouthshut.com/images/imagesp/925042418s.jpg);
+
+}
+
+.second{
+background-image:url(http://top10hotelbookingsites.webs.com/besthotelsites-1.jpg);
+}
+  
+  
+.three{
+background-image:url(http://spanews.vn/wp-content/uploads/2015/12/thiet-ke-spa-nhu-the-nao-2.jpg);
+}
+
+.four{
+background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghini-huracan--3_800x0w.jpg);
+}
+
+  
+ 
+  .band h1{
+  background-color:;
+  font-family:;
+  font-weight:300;
+  text-align:center;
+  font-size:275%;
+  padding-top:20px;
+  padding-bottom:20px;
+  }
+  
+  </style>
+  
  
  
 
@@ -296,4 +338,41 @@ Best Distions Are Suggested To You According To Your Comfort And Your Need :)<br
 
      <td valign="middle" width="766" background="" height="25" align="right" class="copy"><a href="">Privacy Policy</a>&nbsp;&nbsp;&nbsp;<a href="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright (c) worldtravelling.in  2016&nbsp;&nbsp;&nbsp;</td>
   
-    
+    <body>
+ <div class="band">
+ <h1>In Worldtravelling.in ,Here We Provide Best Restaurant,Hotels,Spa Centre</h1>
+ <div>
+
+<div class="parallax first">
+ <div class="caption">
+</div>
+</div>
+
+<div class="band">
+<h1>Here We Provide Best Restaurants</h1>
+</div>
+
+<div class="parallax second">
+ </div>
+ 
+ <div class="band">
+ <h1>Best Hotels</h1>
+ </div>
+ 
+ <div class="parallax three">
+ <div class="caption left">
+ 
+ </div>
+ </div>
+ 
+ <div class="band">
+ <h1>Spa Centre</h1>
+ <div>
+ 
+ <div class="parallax four">
+ <div class="caption">
+
+  </div>
+  </div>
+ 
+
