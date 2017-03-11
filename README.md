@@ -55,7 +55,7 @@
           href="https://fonts.googleapis.com/css?family=Tangerine">
       <style>
      body{
-  background-color:;
+  background-color:#3399ff;
   background-size:cover;
     }
     </style>
