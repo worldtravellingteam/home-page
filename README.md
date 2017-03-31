@@ -57,7 +57,7 @@
 	   href="https://fonts.googleapis.com/css?family=ComicSansMS">
       <style>
      body{
-  background-color:#194e72;
+  background-color:white;
   background-size:cover;
     }
     </style>
@@ -125,7 +125,7 @@ text-shadow: 4px 4px 4px #aaa;
   height:200px;
    float:left;
     line-height:170px;
-  background-color:#194e72;
+  background-color:white;
    border:10px solid black;
 text-decoration:none;
   color:#fff;
@@ -141,7 +141,7 @@ text-decoration:none;
   float:left;
     border-radius:200px;
   border:10px solid black;
-  background-color:#194e72;
+  background-color:white;
   line-height:160px;
   font-family:Tangerine;
   font-size:90px;
@@ -162,7 +162,7 @@ width:400px;
   height:200px;
    float:right;
     line-height:160px;
-  background-color:#194e72;
+  background-color:white;
    border:10px solid black;
 text-decoration:none;
   color:#fff;
@@ -178,7 +178,7 @@ text-decoration:none;
   float:right;
     border-radius:200px;
   border:10px solid black;
-  background-color:#194e72;
+  background-color:white;
   line-height:160px;
   font-family:Tangerine;
   transition:all 0.5s;
