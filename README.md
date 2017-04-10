@@ -317,7 +317,7 @@ Best Distions Are Suggested To You According To Your Comfort And Your Need :)<br
 <br><br><br><br><br><br><br><br>
 <div id="squareq">
 <ul>
- <li><a href="#"><b>Request a Question</b></a></li>
+ <li><a href="#"><b>feedback</b></a></li>
  </ul>
  
  </div>
