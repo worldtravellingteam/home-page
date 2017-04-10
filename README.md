@@ -134,7 +134,6 @@ text-decoration:none;
  #squareq:hover{
    width:400px;
   height:200px;
-  float:left;
     border-radius:200px;
   border:10px solid black;
   background-color:white;
