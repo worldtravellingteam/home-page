@@ -53,7 +53,7 @@
 	   href="https://fonts.googleapis.com/css?family=ComicSansMS">
       <style>
      body{
-  background-color:#6496e5;
+  background-color:#64d1e5;
   background-size:cover;
     }
     </style>
@@ -123,7 +123,7 @@ text-decoration:none;
   height:200px;
    float:left;
     line-height:170px;
-  background-color:#6496e5;
+  background-color:#64d1e5;
    border:10px solid black;
 text-decoration:none;
   color:#fff;
@@ -139,7 +139,7 @@ text-decoration:none;
   float:left;
     border-radius:200px;
   border:10px solid black;
-  background-color:#6496e5;
+  background-color:#64d1e5;
   line-height:160px;
   font-family:Tangerine;
   transition:all 0.5s;
@@ -160,7 +160,7 @@ width:400px;
   height:200px;
    float:right;
     line-height:160px;
-  background-color:#6496e5;
+  background-color:#64d1e5;
    border:10px solid black;
 text-decoration:none;
   color:#fff;
@@ -176,7 +176,7 @@ text-decoration:none;
   float:right;
     border-radius:200px;
   border:10px solid black;
-  background-color:#6496e5;
+  background-color:#64d1e5;
   line-height:160px;
   font-family:Tangerine;
   transition:all 0.5s;
@@ -289,11 +289,8 @@ background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghi
 <a href="https://worldtravelling.in/india/"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/googleplus-circle.png?raw=true" height="45px" width="45px"></a>
 
 </ul>
-
-</div>
-<div>
  <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
- </div>
+
 
 <div class="buttons">
 <form>
