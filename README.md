@@ -132,17 +132,18 @@ text-decoration:none;
 
   
  #squareq:hover{
-   width:400px;
+ width:400px;
   height:200px;
+  float:left;
     border-radius:200px;
   border:10px solid black;
   background-color:white;
-  line-height:120px;
+  line-height:160px;
   font-family:Tangerine;
-  font-size:90px;
   transition:all 0.5s;
   text-shadow: 4px 4px 4px white;
   text-align:center;
+
 
 }
 
@@ -317,7 +318,7 @@ Best Distions Are Suggested To You According To Your Comfort And Your Need :)<br
 <br><br><br><br><br><br><br><br>
 <div id="squareq">
 <ul>
- <li><a href="#"><b>feedback</b></a></li>
+ <li><a href="#"><b>feed</b></a></li>
  </ul>
  
  </div>
