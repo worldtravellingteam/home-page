@@ -289,6 +289,7 @@ background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghi
 <a href="https://worldtravelling.in/india/"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/googleplus-circle.png?raw=true" height="45px" width="45px"></a>
 
 </ul>
+</div>
  <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
 
 
