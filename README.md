@@ -36,17 +36,13 @@
  <meta name="discription" content="travelling,world travelling,india travelling"/>
  <meta name="discription" content="travelling,world travelling,india travelling"/>
  <meta name="discription" content="travelling,world travelling,india travelling"/>
- <meta name="author" content="shivam gupta,aashish pandey"/>
-  <meta name="author" content="shivam gupta,aashish pandey"/>
-   <meta name="author" content="shivam gupta,aashish pandey"/>
-    <meta name="author" content="shivam gupta,aashish pandey"/>
-     <meta name="author" content="shivam gupta,aashish pandey"/>
-      <meta name="author" content="shivam gupta,aashish pandey"/>
-       <meta name="author" content="shivam gupta,aashish pandey"/>
-        <meta name="author" content="shivam gupta,aashish pandey"/>
-         <meta name="author" content="shivam gupta,aashish pandey"/>
-          <meta name="author" content="shivam gupta,aashish pandey"/>
-           <meta name="author" content="shivam gupta,aashish pandey"/>
+ <meta name="author" content="shivam gupta"/>
+  <meta name="author" content="shivam gupta"/>
+   <meta name="author" content="shivam gupta"/>
+    <meta name="author" content="shivam gupta"/>
+     <meta name="author" content="shivam gupta"/>
+      <meta name="author" content="shivam gupta"/>
+       <meta name="author" content="shivam gupta"/>
            
 
  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
@@ -142,7 +138,7 @@ text-decoration:none;
     border-radius:200px;
   border:10px solid black;
   background-color:white;
-  line-height:160px;
+  line-height:120px;
   font-family:Tangerine;
   font-size:90px;
   transition:all 0.5s;
