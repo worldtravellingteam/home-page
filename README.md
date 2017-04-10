@@ -88,9 +88,11 @@ float:right;
 <style>
 h2{
 font-family:Tangerine;
-font-size:79px;
+font-size:85px;
 color:#DBA912;
 text-shadow: 4px 4px 4px #aaa;
+list-style-type:none;
+text-decoration:none;
 }
 </style>
    <style>
@@ -289,9 +291,9 @@ background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghi
 </ul>
 
 </div>
-
+<div>
  <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
- 
+ </div>
 
 <div class="buttons">
 <form>
