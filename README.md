@@ -332,7 +332,7 @@ Best Distions Are Suggested To You According To Your Comfort And Your Need :)<br
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-     <td valign="middle" width="766" background="" height="25" align="right" class="copy"><a href="">Privacy Policy</a>&nbsp;&nbsp;&nbsp;<a href="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright (c) worldtravelling.in  2016&nbsp;&nbsp;&nbsp;</td>
+    
   
     <body>
  <div class="band">
@@ -370,5 +370,7 @@ Best Distions Are Suggested To You According To Your Comfort And Your Need :)<br
 
   </div>
   </div>
+  
+   <td valign="middle" width="766" background="" height="25" align="right" class="copy"><a href="">Privacy Policy</a>&nbsp;&nbsp;&nbsp;<a href="">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright (c) worldtravelling.in  2016&nbsp;&nbsp;&nbsp;</td>
  
 
