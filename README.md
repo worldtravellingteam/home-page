@@ -59,29 +59,26 @@
     </style>
 
     <style>
+    
    #heading ul{
-   background-color:black;
-   height:50px;
-   width:980px;
+   background-color:#305e47;
+   height:60px;
+   width:1300px;
 
    }
    #heading ul li{
-   font-family:;
-   font-size:15px;
+   font-family:Tangerine;
+   font-size:50px;
 list-style-type:none;
 line-height:50px;
 text-align:center;
    }
    
    #heading ul li a{
-   color:white;
+   color:black;
    list-style-type:none;
 text-decoration:none;
 float:left;
-}
-
-#heading ul li a a{
-float:right;
 }
 </style>
 
@@ -275,20 +272,33 @@ background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghi
 
 
 <body>
+
 <div id="heading">
 <ul>
-<li><b><a href="">Email:--worldtravellingteam@gmail.com</a></b></li>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li><b><a href="">Worldtravelling</a></b></li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="www.facebook.com/worldtravellingteam/"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/fb.png?raw=true" height="45px" width="45px"></a>
-&nbsp;&nbsp;&nbsp;
-<a href=""><img src="https://github.com/worldtravellingteam/photos-x/blob/master/twitter.png?raw=true" height="45px" width="45px"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="http://www.instagram.com/worldtravellingteam/"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/instagram.png?raw=true" height="45px" width="45px"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://worldtravelling.in/india/"><img src="https://github.com/worldtravellingteam/photos-x/blob/master/googleplus-circle.png?raw=true" height="45px" width="45px"></a>
+
+<a href=""><img src="http://static.wixstatic.com/media/b60e69_28be9da484ad4900ad58fe7db4885ce5.png" height="45px" width="45px"></a>
+<a href=""><img src="http://bizgropartners.com/wp-content/uploads/2016/03/twitter.png" height="45px" width="45px"></a>
+<a href="http://www.instagram.com/worldtravellingteam/"><img src="https://cdn4.iconfinder.com/data/icons/social-icons-6/40/instagram-512.png" height="45px" width="45px"></a>
+<a href=""><img src="https://careers.juniper.net/careers/careers/img/googleplus-circle.png" height="45px" width="45px"></a>
 
 </ul>
+
 </div>
  <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
 
@@ -308,9 +318,6 @@ background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghi
 <ul>
 Here At Worldtravelling.in We Belive In Helping You As Much As We Can.
 <br>
-We As A Team Like Travelling Ourselves We Have Fresh And Innovative Minds At Worldtravelling.in Who Are Always Up To Give You The Best Information You Need To Visit A Place.
-<br>
-As Worldtravelling.in Team We Assure You That We Ourselves Have Vistied Each Place Ourselves....<br>
 
 Best Distions Are Suggested To You According To Your Comfort And Your Need :)<br>
 </ul>
