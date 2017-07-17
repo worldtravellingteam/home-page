@@ -64,6 +64,7 @@
    background-color:#305e47;
    height:60px;
    width:1300px;
+   top:0;
 
    }
    #heading ul li{
@@ -120,7 +121,7 @@ text-decoration:none;
   height:200px;
    float:left;
     line-height:170px;
-  background-color:#64d1e5;
+  background-color:#305e47;
    border:10px solid black;
 text-decoration:none;
   color:#fff;
@@ -136,7 +137,7 @@ text-decoration:none;
   float:left;
     border-radius:200px;
   border:10px solid black;
-  background-color:#64d1e5;
+  background-color:#305e47;
   line-height:160px;
   font-family:Tangerine;
   transition:all 0.5s;
@@ -157,7 +158,7 @@ width:400px;
   height:200px;
    float:right;
     line-height:160px;
-  background-color:#64d1e5;
+  background-color:#305e47;
    border:10px solid black;
 text-decoration:none;
   color:#fff;
@@ -173,7 +174,7 @@ text-decoration:none;
   float:right;
     border-radius:200px;
   border:10px solid black;
-  background-color:#64d1e5;
+  background-color:#305e47;
   line-height:160px;
   font-family:Tangerine;
   transition:all 0.5s;
@@ -294,8 +295,6 @@ background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghi
 </ul>
 
 </div>
- <marquee behavior="scroll"><h2>welcome to world travelling website :))</h2></marquee>
-
 
 <div class="buttons">
 <form>
