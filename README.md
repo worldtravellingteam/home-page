@@ -81,6 +81,77 @@ text-align:center;
 text-decoration:none;
 float:left;
 }
+
+<style>
+
+#menu ul{
+list-style:none;
+}
+#menu ul li{
+background-color:#305e47;
+border:2px solid black;
+width:210px;
+height:50px;
+line-height:50px;
+text-align:center;
+float:left;
+position:relative;
+border-radius:8px;
+
+}
+
+#menu ul li a{
+text-decoration:none;
+ color:white;
+ font-size:24px;
+ display:block;
+ }
+ #menu ul li a:hover{
+background-color:black;
+border-radius:8px;
+
+ }
+ #menu ul ul{
+ position:absolute;
+ display:none;
+margin:0px;
+padding:0px;
+ }
+ #menu ul li:hover > ul
+ {
+ display:block;
+ }
+ #menu ul ul ul{
+ margin-left:210px;
+ top:0px;
+ }
+ 
+ </style>
+    <style>
+   .buttons{
+   width:1300px;
+   height:484px;
+     margin:0 auto;
+	 line-height:20px;
+   background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/world.png?raw=true");
+   }
+   .buttons input[type="text"]{
+   width:800px;
+  height:60px;
+  border-radius:40px 0px 0px 40px;
+  border:2px solid #162d21;
+  margin:0 auto;
+  }
+  
+      .buttons input[type="submit"]{
+	  height:60px;
+	  width:160px;
+	  border-radius:0px 40px 40px 0px;
+	  border:2px solid #162d21;
+	    margin:0 auto;
+	  }
+   </style>
+
 </style>
 
 <style>
@@ -93,25 +164,6 @@ list-style-type:none;
 text-decoration:none;
 }
 </style>
-   <style>
-   .buttons{
-   width:975px;
-   height:484px;
-     margin:0 auto;
-   background-image:url("https://github.com/worldtravellingteam/photos-x/blob/master/world.png?raw=true");
-   }
-   .buttons input[type="text"]{
-   width:400px;
-  height:40px;
-  margin:0 auto;
-  }
-  
-      .buttons input[type="submit"]{
-	  height:40px;
-	  width:140px;
-	    margin:0 auto;
-	  }
-   </style>
   
    <style>
   
@@ -296,14 +348,38 @@ background-image:url(http://pictures.topspeed.com/IMG/crop/201611/2018-lamborghi
 
 </div>
 
+<body>
+<div id="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Cities</a>
+ <ul>
+   <li><a href="">Delhi</a></li>
+   <li><a href="">Kolkata</a></li>
+    <li><a href="">Manali</a></li>
+	 <li><a href="">Rishikesh</a></li>
+	  <li><a href="">Nainital</a></li>
+</ul>
+</li>
+ <li><a href="#">Best Deal</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">home</a></li>
+</ul>
+<br><br><br><br><br>
+
+
 <div class="buttons">
 <form>
-<br><br><br><br><br><br><br><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <input type="text" placeholder="Enter Your City">
 <input type="submit" value="search">
 </form>
-
+</div>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
