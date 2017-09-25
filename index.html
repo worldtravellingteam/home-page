@@ -1,23 +1,29 @@
 <html>
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>worldtravelling.in - We help you travel throughout the globe. </title>
-<link rel="icon" href="favicon2.png">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="Keywords" content="world travel,travel,world,world travelling,hotel,booking,trip,reviews,hotel reviews,best website">
-<meta name="Description" content="We at worldtravelling.in help you travel the globe with comfort.We show you the latest reviews of different hotels and compare their prices precisely">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--Bootstrap library--------------->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--JQuery library--------------->
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script> 
 <style>
-button:focus { outline:0 !important; }
 nav ul li
 {
 	font-family:open-sans;
 	font-size:18px;
 	font-weight:bold;
 }
+button:focus { outline:0 !important; }
+select option
+{
+font-size:20px;
+padding:55px;
+font-family:open-sans;
+}
+option
+{
 
+	height:1500px;
+}
 .hero
 {
 background-repeat:no-repeat;
@@ -34,18 +40,39 @@ background-position: 100% 100%;
 	padding:0 !important;
 	margin:auto !important;
 }
+.bef
+{
+padding:1px;
+}
+.af
+{
+padding:15px;
+}
 .navbar
 {
     box-shadow:3px 2px 3px grey;
-
+transition:all 0.3s ease-in;
 background-color:white;
 z-index:1000;
 width:100%;
 border-radius:0px;
 }
+.l
+{
+	border:none;
+	border-radius:0px;
+	border-right:0.1px solid lightgrey;
+	}
+input[type="date"]
+{
+	border:none;
+	border-radius:0px;
+}
 input[type="text"]
 {
 	font-size:24px;
+	
+	background-image:url("");
 }
 input[type="text"] placeholder
 {
@@ -70,21 +97,65 @@ input[type="radio"] checked
 {
 color:red;
 }
-
+.beflogo
+{
+ width:105px;
+ height:85px;
+margin-left:60px;
+margin-top:-25px !important;
+}
+#lg
+{
+transition:all 0.3s ease-in;
+}
+.aflogo
+{
+width:85px ;
+ height:65px;
+margin-left:50px;
+margin-top:-15px !important;
+}
 </style>
-
+<script language="javascript" type="text/javascript">
+var timerid = 0;
+var images = new Array(	"hotel.jpg",
+			"hotel2.jpg",
+			"hotel3.jpg");
+var countimages = 0;
+function startTime()
+{
+	if(timerid)
+	{
+		timerid = 0;
+	}
+	var tDate = new Date();
+	
+	if(countimages == images.length)
+	{
+		countimages = 0;
+	}
+	if(tDate.getSeconds() % 5 == 0)
+	{
+		document.getElementById("img1").src = images[countimages];
+	}
+	countimages++;
+	
+	timerid = setTimeout("startTime()", 1000);
+}
+</script>
 </head>
-<body>
-
+<body onload="startTime();">
+<!--JQuery library--------------->
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <header>
 <div class="container-fluid" style="padding:0;margin:auto">
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="af navbar navbar-default navbar-fixed-top">
 <div class="container-fluid">
 <div class="row" style="padding:2">
-<div class="logo col-md-2" style="margin-left:60px;margin-top:-15px !important;">
-<a class="navbar-brand" href="#"><img src="worldtravel1.png" width="85px" height="65px"></a>
+<div class="logo col-md-2" style="">
+<a class="navbar-brand" href="#"><img class="beflogo" id="lg" src="worldtravel1.png"></a>
 </div>
 <div class="col-md-6 navbar-text" style="margin-top:23px;border-right:0.1px solid lightgrey">
 <ul class="nav navbar-nav list-inline text-primary">
@@ -112,7 +183,8 @@ Flights
 <li><button id="b1" class="btn btn-success navbar-btn text-center">JOIN</button></li>
 <li><i class="fa fa-search" style="font-size:25px;margin-top:22;padding-left:15"></i></li>
 </ul>
-</div></div></div>
+</div></div>
+</div>
 </nav>
 </div>
 
@@ -122,32 +194,25 @@ Flights
 <span class="col-md-offset-2 col-md-10" style="padding-left:0;font-size:45px;color:white;font-family:Monospace">Latest Reviews.Lowest prices.</span>
 </div>
 
-<div class="row text-center" style="padding-bottom:150px"><center>
-<div class="col-md-offset-1 col-md-4" style="background-color:;padding:0;margin:auto">
-<div class="input-group" style="float:right;position:relative">  
-	<input type="text" class="form-control" placeholder="Search" style="border-radius:100px 0px 0px 100px;height:50px;width:100%">
+<div class="row text-center form-group" style="margin-bottom:150px"><center>
+<div class="col-md-6 " style=";padding:0;margin:auto">
+ <input type="text text-center" class="form-control" placeholder="Search" style="border-radius:100px 0px 0px 100px;height:50px;padding:15;padding-left:55;font-size:25px">
 	</div>
-	</div>
-	<div class="col-md-2"  style="background-color:;padding:0;margin:auto">
-	<div class="input-group" style="float:left;width:100%">
-	<select class="form-control" style="width:100%;height:50px;">
+	<div class="col-md-2 "  style="background-color:;padding:0;margin:auto">
+	<select class="form-control l input-group" style="height:50px;">
 	<option value="1 room,2 Guests">1 room,2 Guests</option>
 	<option value="2 room,4 Guests">2 room,4 Guests</option>
 	<option value="4 room,8 Guests">4 room,8 Guests</option>
 	</select>
 	</div>
-	</div>
 	<div class="col-md-2" style="background-color:;padding:0 !important;margin:auto">
-	<div class="input-group" style="float:left;width:100%" >
-	<input type="date" class="form-control" value="Check in-Check out" style="width:100%;height:50px;">
-	</div>
+	<input type="date" class=" input-group form-control" value="Check in-Check out" style="width:100%;height:50px;">
 	</div>
 <div class="col-md-2" style="background-color:;padding:0 !important;margin:auto">
-    <div class="input-group input-group-btn" >
+    
       <button class="form-control btn btn-success" type="submit" style="border-radius:0 100px 100px 0;height:50px;float:left">
-        <span style="font-size:20">Find Hotels</span>
+        <span style="font-size:20;font-family:prestine">Find Hotels</span>
       </button>
-    </div>
 	</div></center>
   </div>
   </div>
@@ -426,10 +491,34 @@ Flights
 <span style="float:left;padding-left:155px;margin-top:35px;font-size:20">Know better <input type="radio" checked> Book better <input type="radio" checked> Go better</span>
 </div></div>
 <hr>
-<span style="font-size:20;font-family:sans-seriff">Copyright &copy; 2017 worldtravelling.in</span>
-<span style="font-size:14;float:right;font-family:Miriam">Designed with <i class="fa fa-heart"></i> by <a href="https://abhishekkarna.github.io" target="_blank">Developing Web</a></span>	
-	</div>
+<span style="font-size:20;font-family:sans-seriff">Copyright &copy; 2017 Developing Webs</span> </div>
 </footer>
 </header>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+   if (document.body.scrollTop >1 || document.documentElement.scrollTop >1) 
+	{		       
+		$("#lg").addClass("aflogo");
+		$("#lg").removeClass("beflogo");
+		$("nav").addClass("bef");
+		$("nav").removeClass("af");
+
+    } 
+	else
+	{
+		$("nav").removeClass("bef");	
+		$("#lg").removeClass("aflogo");
+		$("nav").addClass("af");
+		$("#lg").addClass("beflogo");
+	}
+	 
+
+
+}
+
+
+</script>
 </body>
 </html>
