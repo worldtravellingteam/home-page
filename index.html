@@ -102,7 +102,7 @@ option
 	.af
 		{
 			font-size:22px;
-			padding:10px;
+			padding-left:10px;
 			padding-bottom:0 !important;
 		}
 	.beflogo
@@ -150,6 +150,21 @@ option
 	{
 		font-size:50px;
 	}
+	
+figure:hover
+{
+	z-index:5;
+	transform:scale(1.2,1.4);
+}
+figure
+{
+	padding:10px;
+	background-color:white;
+	border:1px solid yellow;
+	transition:all 0.4s ease-in;
+	box-shadow:0.5px 1px 3px 2px white; 
+	}
+
 }
 @media screen and (max-width: 768px) 
 {
@@ -158,7 +173,21 @@ option
 			background-color:lightgrey !important;
 			padding:15px;
 	}
-
+	
+	figure
+	{
+	margin-top:10px;
+	padding:10px;
+	background-color:white;
+	border:1px solid yellow;
+	transition:all 0.3s ease-in;
+	box-shadow:0.5px 1px 3px 2px white; 
+	}
+	figure img
+	{
+		width:100%;
+		height:30%;
+		}
 	#sep
 	{
 		display:none;
@@ -239,9 +268,7 @@ padding-top:10;
 html,body
 {
 height:100%;
-}
-
-</style>
+}</style>
 
 </head>
 <body>
@@ -327,25 +354,25 @@ Flights
 <div class="top_hotels">
 <div class="row" style="padding-top:50px">
 <div class="col-md-5" style="padding-top:0;font-family:Miriam">
-<span style="padding-top:80px;"><h3><strong>Travellers' choice : Top Hotels</strong></h3></span>
+<span style="padding-top:80px;color:white"><h2><strong>Travellers' choice : Top Hotels</strong></h2></span>
 </div>
 <div class="col-md-7" style="padding-top:10;font-family:Miriam">
-<span style="font-size:21;float:right;color:black">See all</span>
+<span style="font-size:21;float:right;color:white">See all</span>
 </div>
 </div>
 <div class="gallery">
 <div class="row">
 <div class="col-md-3">
-<figure><img src="hotel.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="hotel2.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="bus.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="bus1.jpg"width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 </div>
 </div>
@@ -354,25 +381,25 @@ Flights
 <div class="resorts">
 <div class="row" style="padding-top:50px">
 <div class="col-md-5" style="padding-top:0;font-family:Miriam">
-<span style="padding-top:80px;"><h3><strong>Travellers' choice : All inclusive resorts</strong></h3></span>
+<span style="padding-top:80px;color:white"><h3><strong>Travellers' choice : All inclusive resorts</strong></h3></span>
 </div>
 <div class="col-md-7" style="padding-top:10;font-family:Miriam">
-<span style="font-size:21;float:right;color:black">See all</span>
+<span style="font-size:21;float:right;color:white">See all</span>
 </div>
 </div>
 <div class="gallery">
 <div class="row">
 <div class="col-md-3">
-<figure><img src="bus2.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="busn.png" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="cs.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="hotel2.jpg"width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 </div>
 </div>
@@ -381,25 +408,25 @@ Flights
 <div class="small_hotels">
 <div class="row" style="padding-top:50px">
 <div class="col-md-5" style="padding-top:0;font-family:Miriam">
-<span style="padding-top:80px;"><h3><strong>Travellers' choice : All inclusive resorts</strong></h3></span>
+<span style="padding-top:80px;color:white"><h3><strong>Travellers' choice : All inclusive resorts</strong></h3></span>
 </div>
 <div class="col-md-7" style="padding-top:10;font-family:Miriam">
-<span style="font-size:21;float:right;color:black">See all</span>
+<span style="font-size:21;float:right;color:white">See all</span>
 </div>
 </div>
 <div class="gallery">
 <div class="row">
 <div class="col-md-3">
-<figure><img src="events.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="events1.gif" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="des.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="hotel2.jpg"width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 </div>
 </div>
@@ -408,25 +435,25 @@ Flights
 <div class="top_destination">
 <div class="row" style="padding-top:50px">
 <div class="col-md-5" style="padding-top:0;font-family:Miriam">
-<span style="padding-top:80px;"><h3><strong>Travellers' choice : All inclusive resorts</strong></h3></span>
+<span style="padding-top:80px;color:white"><h3><strong>Travellers' choice : All inclusive resorts</strong></h3></span>
 </div>
 <div class="col-md-7" style="padding-top:10;font-family:Miriam">
-<span style="font-size:21;float:right;color:black">See all</span>
+<span style="font-size:21;float:right;color:white">See all</span>
 </div>
 </div>
 <div class="gallery">
 <div class="row">
 <div class="col-md-3">
-<figure><img src="lab2.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="lab3.jpg" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="lab4.png" width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
-<figure><img src="lab6.jpg"width="250px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 </div>
 </div>
@@ -435,7 +462,7 @@ Flights
 <div class="popular_destination">
 <div class="row" style="padding-top:50px">
 <div class="col-md-8" style="padding-top:0;font-family:Miriam">
-<span style="padding-top:80px;"><h3><strong>Travellers' choice : Hotels in Popular destinations</strong></h3></span>
+<span style="padding-top:80px;color:white"><h3><strong>Travellers' choice : Hotels in Popular destinations</strong></h3></span>
 </div>
 </div>
 <div class="info" style="font-family:rockwell">
@@ -450,7 +477,7 @@ Flights
 <div class="ct">
 <div class="row" style="padding-top:20px">
 <div class="col-md-8" style="padding-top:0;font-family:arial">
-<span style="padding-top:80px;"><h5><strong>Top Indian states & cities</strong></h5></span>
+<span style="padding-top:80px;color:white"><h5><strong>Top Indian states & cities</strong></h5></span>
 </div>
 </div>
 <div class="row">
