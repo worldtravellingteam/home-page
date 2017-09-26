@@ -27,6 +27,7 @@ worldtravelling.in - We help you travel the globe.</title>
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--Bootstrap library--------------->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+
 <!--JQuery library--------------->
 <script type="text/javascript" src="jquery-3.2.1.min.js"></script> 
 <style>
@@ -36,29 +37,27 @@ worldtravelling.in - We help you travel the globe.</title>
 	
 nav ul li
 {
-    color:#000000;
-	font-family:Tangerine;
-	font-size:35px;
+    color:white;
+	font-family:Miriam;
 	font-weight:bold;
 }
-button:focus { outline:0 !important; }
+button:focus 
+{
+ outline:0 !important;
+ }
 select option
 {
-font-size:35px;
+font-size:30px;
 padding:55px;
-font-family:Tangerine;
+font-family:Monospace;
 }
-option
-{
 
-	height:1500px;
-}
 .hero-image {
     /* The image used */
     background-image: url("aa.jpg");
     margin-top:60px;
     /* Set a specific height */
- height:91%;
+	height:91%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
@@ -88,22 +87,19 @@ option
 			opacity:0.5;
 			
 		}
-	.navbar
-		{
-			background-color:white;
-
-		}
+	
 
 	.bef
 		{
+			
 			font-size:18px;
-			padding:0px;
+			padding:0px !important;
 		}
 	.af
 		{
 			font-size:22px;
 			padding-left:10px;
-			padding-bottom:0 !important;
+			padding-bottom:10 !important;
 		}
 	.beflogo
 		{
@@ -154,20 +150,21 @@ option
 figure:hover
 {
 	z-index:5;
-	transform:scale(1.2,1.4);
+	transform:scale(1.1,1.2);
 }
 figure
 {
 	padding:10px;
 	background-color:white;
 	border:1px solid yellow;
-	transition:all 0.4s ease-in;
+	transition:all 0.3s ease-in;
 	box-shadow:0.5px 1px 3px 2px white; 
 	}
 
 }
 @media screen and (max-width: 768px) 
 {
+	
 	.z .navbar-header
 	{
 			background-color:lightgrey !important;
@@ -264,7 +261,90 @@ footer ul li
 {
 padding-top:10;
 }
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
 
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
 html,body
 {
 height:100%;
@@ -276,7 +356,7 @@ height:100%;
 <script type="text/javascript" src="jquery-3.2.1.min.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<nav class="af navbar navbar-default navbar-fixed-top">
+<nav class="af navbar navbar-default navbar-fixed-top navbar">
 <div class="container-fluid z">
 
 <div class="navbar-header">
@@ -328,7 +408,7 @@ Flights
 <div>
 <div class="hero-image">
   <div class="hero-text">
-    <h1 class="text-center lr" >Latest Reviews.Lowest prices.</h1>
+    <h1 class="text-center text-primary lr" >Latest Reviews.Lowest prices.</h1>
     <form id="search-form" class="form-inline" role="form" method="post" action="//www.google.com/search" target="_blank">
     <div class="input-group">
         <input type="text" class="form-control search-form" placeholder="Search">
@@ -556,65 +636,72 @@ Flights
 </div>
 </div>
 </div>
-<footer class="footer" style="background-color:lightgrey;padding-bottom:20">
-<div class="container text-center" style="padding-top:25">
+<footer class="footer" style="background-color:293339">
+<div class="container text-center" style="padding:10">
+<div class="row page-header">
+<div class="col-md-7" style="padding:15;color:white;font-size:20px;padding-top:0">
+Want to receive exclusive hotel offers ? Subscribe to our newsletter!
+</div>
+<div class="col-md-5" style="padding:15;padding-top:0">
+<div class="input-group">
+        <input type="text" class="form-control text-block" placeholder="Email Address" style="border-radius:0;padding:25">
+		<span class="input-group-btn"><button type="submit" class="btn btn-primary btn-block" style="border-radius:0;padding:15.343">Subscribe</button></span>
+	</div>
+</div>
+</div>
 <div class="row">
-<div class="col-md-8" style="padding:15;padding-right:0">
-<ul class="col-md-3" style="list-style-type:none;">
-<h5><strong>About Advisory</strong></h5>
-<li>About us</li>
-<li>Press</li>
-<li>Content Integrity</li>
-</ul>
-<ul class="col-md-2" style="list-style-type:none">
-<h5><strong>Explore</strong></h5>
-<li>Write a review</li>
-<li>Join</li>
-<li>Green leaders</li>
-<li>Help center</li>
-</ul>
-<ul class="col-md-3" style="list-style-type:none">
-<h5><strong>Currency/Country</strong></h5>
-<select class="form-control"><li><option value="INR"> &#8377; INR</option></li>
-<li><option value="NC">Nepali</option></li>
-</select>
-<select class="form-control" style="margin-top:15"><li><option value="INR"> INDIA</option></li>
+<div class="col-md-6">
+<span style="color:white;font-size:15"><b>Developing Web</b>-Nihal Vihar,Nangloi,Delhi </span>
+</div>
+<div class="col-md-offset-3 col-md-3">
+<span style=""><select class="form-control text-block" style="border-radius:0px"><li><option value="INR"> INDIA</option></li>
 <li><option value="NC">Nepal</option></li>
-</select>
-</ul>
+</select></span>
 </div>
 </div>
 <div class="row">
-<div class="col-md-8" style="padding:15;padding-right:0">
-<ul class="col-md-3" style="list-style-type:none;">
-<h5><strong>Do business with us</strong></h5>
-<li>Owners & DMO/CVB</li>
-<li>Business advantage</li>
-</ul>
-<ul class="col-md-2" style="list-style-type:none;">
-<h5><strong>Get the App</strong></h5>
-<li>Iphone App</li>
-<li>Android App</li>
-</ul>
-<ul class="col-md-3" style="list-style-type:none;">
-<h5><strong>Follow us</strong></h5>
-<li>Facebook</li>
-<li>Twitter</li>
-<li>Pintrest</li>
-<li>Instagram</li>
-</ul>
+<div class="col-md-4">
+      <div style="padding:40px;padding-left:20">
+      <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/abhishekkarna21" target="_blank" ></a>
+			<a class="twitterBtn smGlobalBtn" href="https://twitter.com/abhishekkarna21" target="_blank"></a>
+			<a class="googleplusBtn smGlobalBtn" href="https://plus.google.com/u/0/114825886531733802622" target="_blank"></a>
+			<a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/abhishek-mani-29159772/" target="_blank"></a>
+        </div>
+        </div>
 
 </div>
-</div>
-<div class="footer-content" style="padding-top:20">
 <div class="row">
-<img src="worldtravel1.png" style="float:left;width:110px;height:100px">
-<span style="float:left;padding-left:155px;margin-top:35px;font-size:20">Know better <input type="radio" checked> Book better <input type="radio" checked> Go better</span>
-</div></div>
-<hr>
-<span style="font-size:20;font-family:sans-seriff">Copyright &copy; 2017 WorldTravelling</span> 
-<span style="font-size:15;float:right;font-family:Miriam">
-Designed with <i class="fa fa-heart"></i> By <a href="https://abhishekkarna.github.io" target="_blank">Developing Web</a></span> 
+<div class="col-md-4">
+<ul class="" style="list-style-type:none;color:white;font-size:15">
+<li>Company</li>
+<li>Carriers</li>
+<li>Jobs</li>
+<li>Press</li>
+<li>Support centre</li>
+<li>Investor relations</li>
+<li>Expedia</li>
+</ul>
+</div>
+<div class="col-md-4">
+<p style="color:white;font-size:18;padding:15">Travelling is a fun now.We will help you decide where to visit at what times with latest reviews and photos</p>
+</div>
+<div class="col-md-4">
+<ul class="" style="list-style-type:none;color:white;font-size:15">
+<li>Terms & Conditions</li>
+<li>Legal information</li>
+<li>Privacy policy</li>
+<li>Site map</li>
+<li>Cookie Policy</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="text-center" style="padding:50;background-color:37454d">
+<span style="font-size:25;color:white;font-family:sans-seriff">WorldTravelling</span> 
+<div style=""><span style="position:absolute;top:3355px;left:530px;font-size:20;color:grey;padding-top:20;font-family:sans-seriff">Copyright &copy; 2017 WorldTravelling</span> 
+<span style="font-size:15;color:white;float:right;font-family:Miriam">
+Designed with <i class="fa fa-heart"></i> By <a href="https://abhishekkarna.github.io" target="_blank">Developing Web</a>
+</span> </div>
 </div>
 </footer>
 <script>
