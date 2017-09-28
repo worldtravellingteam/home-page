@@ -27,12 +27,15 @@ worldtravelling.in - We help you travel the globe.</title>
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--Bootstrap library--------------->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!--JQuery library--------------->
 <script type="text/javascript" src="jquery-3.2.1.min.js"></script> 
 <style>
 	body{
 	  background-color:#305e47;
+	  overflow-x:hidden;
 	}
 	
 nav ul li
@@ -48,7 +51,7 @@ button:focus
 select option
 {
 font-size:30px;
-padding:55px;
+padding:15px;
 font-family:Monospace;
 }
 
@@ -170,9 +173,7 @@ figure
 			background-color:lightgrey !important;
 			padding:15px;
 	}
-	.z .lf li{
-	color:grey;
-	}
+	
 	figure
 	{
 	margin-top:10px;
@@ -207,7 +208,9 @@ figure
 	{
 		background-color:lightgrey;
 	}
-	
+	.z .lf li{
+	color:grey;
+	}
 	.z .sf
 	{
 	text-align:right;
@@ -350,10 +353,55 @@ padding-top:10;
 html,body
 {
 height:100%;
-}</style>
+}
+.selected{color:yellow}
+a{color:white;}
+ul li a{text-decoration:none;}
+</style>
+<script>
+$(document).ready(function() {
+$("figure").click(function() { 
+    
+	$('figure').find('img').removeClass('selected');
+	$(this).find('img').addClass('selected');
+	var img = $(this).find('img').attr('src');
+	$("#mi").attr("src", img);
+	var tit = $(this).find('figcaption').text();
+	$(".mh").text(tit);
+	opens();
+	}); 
+});
+function prev()
+{
+    var prev = $(".selected").prev();
+	$('prev').hide();
+    var img = prev.find('img').attr('src');
+    $("#mi").attr("src", img); 
+    $('figure').find('img').removeClass('selected');
+    prev.addClass('selected'); 
+};
 
+$('#next').click(function(){
+    var next = $(".selected").next();
+    var img = next.find('img').attr('src');
+    $("#mi").attr("src", img); 
+    $('figure').find('img').removeClass('selected');
+    next.addClass('selected'); 
+});
+function opens()
+{ 
+	    document.getElementById("myDialog").showModal(); 
+		
+
+}
+function fn()
+{
+		 document.getElementById("myDialog").close();
+
+}
+</script>
 </head>
-<body>
+<body id="b">
 <!--JQuery library--------------->
 <script type="text/javascript" src="jquery-3.2.1.min.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -401,7 +449,7 @@ Flights
 </ul>
 <ul class="nav navbar-nav navbar-right navbar-text sf" style="margin-right:10px">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#" onClick="login()"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
 
 </div>
@@ -410,7 +458,7 @@ Flights
 <div>
 <div class="hero-image">
   <div class="hero-text">
-    <h1 class="text-center text-primary lr" >Latest Reviews.Lowest prices.</h1>
+    <h1 class="text-center text-primary lr" >Best Places.Latest Reviews.</h1>
     <form id="search-form" class="form-inline" role="form" method="post" action="//www.google.com/search" target="_blank">
     <div class="input-group">
         <input type="text" class="form-control search-form" placeholder="Search">
@@ -433,7 +481,8 @@ Flights
 <span style="position:absolute;top:20px;font-size:21;color:white">Fing the best values on hotels and make the most out of your trip.<p style="padding:10">See How</p></span>
 </div>
 </div>
-<div class="top_hotels">
+</div>
+<div class="top_hotels container">
 <div class="row" style="padding-top:50px">
 <div class="col-md-5" style="padding-top:0;font-family:Miriam">
 <span style="padding-top:80px;color:white"><h2><strong>Travellers' choice : Top Hotels</strong></h2></span>
@@ -445,20 +494,29 @@ Flights
 <div class="gallery">
 <div class="row">
 <div class="col-md-3">
-<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+<figure><img class="selected" src="hotel.jpg" width="240px" height="150px" ><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
+</div>
+<div class="col-md-3">
+<figure><img src="hotel2.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">Italy Hotel</figcaption></figure>
+</div>
+<div class="col-md-3">
+<figure><img src="events.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 <div class="col-md-3">
 <figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
-<div class="col-md-3">
-<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
-</div>
-<div class="col-md-3">
-<figure><img src="hotel.jpg" width="240px" height="150px"><figcaption class="text-center text-info" style="font-size:25;font-family:open-sans">France Hotel</figcaption></figure>
 </div>
 </div>
-</div>
-</div>
+<dialog id="myDialog" class="well" style="border:none;box-shadow:1px 1px 4px 2px white">
+	<div class="dialog-header">
+        <button type="button" class="close" style="color:red;font-size:50px" onClick="fn()">&times;</button>
+        <b><h1 class="modal-title text-center mh" style="font-family:open-sans"></h1></b>
+      </div>
+	<div class="dialog-content">
+	  <img src="left1.png" onClick="prev()"style="float:left;padding-left:0;margin-left:0;position:fixed;top:50%"><img id="mi" src="#" ><img src="right1.png" onClick="next()" style="padding-right:0;float:right;position:fixed;top:50%">
+	  </div>
+
+</dialog>
 
 <div class="resorts">
 <div class="row" style="padding-top:50px">
@@ -562,6 +620,7 @@ Flights
 <span style="padding-top:80px;color:white"><h5><strong>Top Indian states & cities</strong></h5></span>
 </div>
 </div>
+<div class="container text-center" style="">
 <div class="row">
 <ul class="col-md-4" style="list-style-type:none;font-size:15px">
 <li>Ahmedabad</li>
@@ -638,7 +697,8 @@ Flights
 </div>
 </div>
 </div>
-<footer class="footer" style="background-color:293339">
+</div>
+<footer class="footer" style="background-color:293339;box-shadow:0px 0px 2px 1px white">
 <div class="container text-center" style="padding:10">
 <div class="row page-header">
 <div class="col-md-7" style="padding:15;color:white;font-size:20px;padding-top:0">
@@ -653,7 +713,7 @@ Want to receive exclusive hotel offers ? Subscribe to our newsletter!
 </div>
 <div class="row">
 <div class="col-md-6">
-<span style="color:white;font-size:15"><b></b> </span>
+<span style="color:white;font-size:15"><b>Developing Web</b>-Nihal Vihar,Nangloi,Delhi </span>
 </div>
 <div class="col-md-offset-3 col-md-3">
 <span style=""><select class="form-control text-block" style="border-radius:0px"><li><option value="INR"> INDIA</option></li>
@@ -675,13 +735,13 @@ Want to receive exclusive hotel offers ? Subscribe to our newsletter!
 <div class="row">
 <div class="col-md-4">
 <ul class="" style="list-style-type:none;color:white;font-size:15">
-<li>Company</li>
-<li>Carriers</li>
-<li>Jobs</li>
-<li>Press</li>
-<li>Support centre</li>
-<li>Investor relations</li>
-<li>Expedia</li>
+<li><a href="#">Company</a></li>
+<li><a href="#">Carriers</a></li>
+<li><a href="#">Jobs</a></li>
+<li><a href="#">Press</a></li>
+<li><a href="#">Support centre</a></li>
+<li><a href="#">Investor relations</a></li>
+<li><a href="#">Expedia</a></li>
 </ul>
 </div>
 <div class="col-md-4">
@@ -689,23 +749,30 @@ Want to receive exclusive hotel offers ? Subscribe to our newsletter!
 </div>
 <div class="col-md-4">
 <ul class="" style="list-style-type:none;color:white;font-size:15">
-<li>Terms & Conditions</li>
-<li>Legal information</li>
-<li>Privacy policy</li>
-<li>Site map</li>
-<li>Cookie Policy</li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Legal information</a></li>
+<li><a href="#">Privacy policy</a></li>
+<li><a href="#">Site map</a></li>
+<li><a href="#">Cookie Policy</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div class="text-center" style="padding:50;background-color:37454d">
-<span style="font-size:25;color:white;font-family:sans-seriff">WorldTravelling</span> 
-<div style=""> 
-<span style="font-size:15;color:white;float:right;font-family:Miriam">
+<div class="container-fluid text-center" style="padding:50;background-color:37454d">
+<span style="font-size:25;color:white;font-family:sans-seriff"><h1>WorldTravelling</h1></span> 
+<p style="padding:15"><center>
+<span style="font-size:20;color:whitesmoke;font-family:sans-seriff">Copyright &copy; 2017 WorldTravelling</span></center>
+<span style="font-size:15;color:white;float:right;padding-right:10px;font-family:Miriam">
 Designed with <i class="fa fa-heart"></i> By <a href="https://abhishekkarna.github.io" target="_blank">Developing Web</a>
-</span> </div>
+</span> </p>
 </div>
 </footer>
+<div id="log" style="position:absolute;top:187px;left:417px;background-color:white;display:none;padding:40;padding-top:20px;box-shadow:1px 1px 1px 1px white;border-radius:15px">
+<div class="page-header text-center text-primary" style="font-family:open-sans"><h1>Login</h1></span>
+<input type="email" class="form-control text-block" placeholder="Email" style="padding:25px;width:420px;font-size:25px">
+<input type="password" class="form-control text-block" placeholder="************" style="width:420px;font-size:25px;margin-top:30px;padding:25px">
+<button class="btn btn-block btn-success" style="margin-top:30px;padding:25px">Login</button>
+</div>
 <script>
 window.onscroll = function() {scrollFunction()};
 
