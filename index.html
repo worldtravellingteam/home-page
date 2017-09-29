@@ -57,7 +57,7 @@ font-family:Monospace;
 
 .hero-image {
     /* The image used */
-    background-image: url("dsk2.jpg");
+    background-image: url("aa.jpg");
     margin-top:60px;
     /* Set a specific height */
 	height:91%;
@@ -389,7 +389,12 @@ $('#next').click(function(){
     next.addClass('selected'); 
 });
 function opens()
-{ 
+{ 		
+  body {
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    filter: blur(20px);
+}
 	    document.getElementById("myDialog").showModal(); 
 		
 
@@ -459,13 +464,14 @@ Flights
 <div class="hero-image">
   <div class="hero-text">
     <h1 class="text-center text-primary lr" >Best Places.Latest Reviews.</h1>
-    <form id="search-form" class="form-inline" role="form" method="post" action="//www.google.com/search" target="_blank">
+    <form id="search-form" action="http://www.google.com/search" class="form-inline searchform" method="get" name="searchform" target="_blank">
     <div class="input-group">
-        <input type="text" class="form-control search-form" placeholder="Search">
-		<span class="input-group-btn"><button type="submit" class="btn btn-primary search-btn" data-target="#search-form" name="q" style="height:34.3px"><i class="fa fa-search"></i></button></span>
+        <input autocomplete="on" class="form-control search-form" name="q" placeholder="Search" required="required"  type="text">
+		<span class="input-group-btn">
+		<button type="submit" class="btn btn-primary button search-btn" style="height:34.3px"><i class="fa fa-search"></i></button></span>
 	</div>
-  </form>
-  </div>
+  
+   </div>
 </div>
 </div>
 
@@ -713,7 +719,7 @@ Want to receive exclusive hotel offers ? Subscribe to our newsletter!
 </div>
 <div class="row">
 <div class="col-md-6">
-<span style="color:white;font-size:15"><b>worldtravellingteam</b> </span>
+<span style="color:white;font-size:15"><b>Developing Web</b>-Nihal Vihar,Nangloi,Delhi </span>
 </div>
 <div class="col-md-offset-3 col-md-3">
 <span style=""><select class="form-control text-block" style="border-radius:0px"><li><option value="INR"> INDIA</option></li>
@@ -724,8 +730,8 @@ Want to receive exclusive hotel offers ? Subscribe to our newsletter!
 <div class="row">
 <div class="col-md-4">
       <div style="padding:40px;padding-left:20">
-      <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/worldtravellingteam/" target="_blank" ></a>
-			<a class="twitterBtn smGlobalBtn" href="https://twitter.com/travellingteam" target="_blank"></a>
+      <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/abhishekkarna21" target="_blank" ></a>
+			<a class="twitterBtn smGlobalBtn" href="https://twitter.com/abhishekkarna21" target="_blank"></a>
 			<a class="googleplusBtn smGlobalBtn" href="https://plus.google.com/u/0/114825886531733802622" target="_blank"></a>
 			<a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/abhishek-mani-29159772/" target="_blank"></a>
         </div>
