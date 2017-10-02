@@ -40,9 +40,14 @@ worldtravelling.in - We help you travel the globe.</title>
 	
 nav ul li
 {
-    color:white;
+    color:lightgrey;
 	font-family:Miriam;
 	font-weight:bold;
+}
+nav ul li:hover
+{
+	color:white;
+	cursor:pointer;
 }
 button:focus 
 {
@@ -120,8 +125,8 @@ font-family:Monospace;
 	.aflogo
 		{
 		position:absolute;
-		top:0;
-		height:85px;
+		top:10;
+		height:70px;
 		padding:5px;
 		padding-left:50px;
 		box-sizing:border-box;
@@ -153,7 +158,7 @@ font-family:Monospace;
 figure:hover
 {
 	z-index:5;
-	transform:scale(1.1,1.2);
+	transform:scale(1.05,1.10);
 }
 figure
 {
@@ -211,6 +216,9 @@ figure
 	.z .lf li{
 	color:grey;
 	}
+	.z .sf li{
+	color:black !important;
+	}
 	.z .sf
 	{
 	text-align:right;
@@ -266,6 +274,8 @@ footer ul li
 {
 padding-top:10;
 }
+
+
 .smGlobalBtn { /* global button class */
     display: inline-block;
     position: relative;
@@ -354,12 +364,49 @@ html,body
 {
 height:100%;
 }
+
+
 .selected{color:yellow}
+
 a{color:white;}
+
 ul li a{text-decoration:none;}
+
+.subs
+{
+background-color:337ab7;
+}
+
+.subs:hover
+{
+background-color:black;
+color:white;
+}
+
+#subs_but
+{
+	color:black;
+	font-size:20;
+	font-family:Monospace";
+}
+.subs:hover #subs_but
+{
+	color:white;
+}
+<!---------------------------------------- MODAL start------------------------------------------------------------>
+
+
+
+ <!-------------------------------------------------------MODAL end------------------------------------------------------------------------->
+
 </style>
 <script>
 $(document).ready(function() {
+$("#mymodal").mouseenter(function(){
+   $("body").css("overflow", "hidden"); 
+}).mouseleave(function(){
+   $("body").css("overflow", "visible");
+});
 $("figure").click(function() { 
     
 	$('figure').find('img').removeClass('selected');
@@ -453,10 +500,9 @@ Flights
 </li>
 </ul>
 <ul class="nav navbar-nav navbar-right navbar-text sf" style="margin-right:10px">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#" onClick="login()"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a data-toggle="modal" href="#signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a data-toggle="modal" href="#login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
-
 </div>
 </div>
 </nav>
@@ -474,7 +520,53 @@ Flights
    </div>
 </div>
 </div>
+<div id="login" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title text-center"><span style="font-family:cursive;font-weight:bold;outline:none">LOGIN</span></h2>
+      </div>
+      <div class="modal-body">
+	  
+        <input type="email" class="form-control text-block" placeholder="Email Address" style="border-radius:0;padding:25" required>
+		<input type="password" class="form-control text-block" placeholder="Password" style="border-radius:0;margin-top:20;padding:25" required>
+		<span class=""><button type="submit" class="btn btn-primary btn-block" style="border-radius:0;margin-top:20;padding:15"><span style="color:black">LOGIN</span></button></span>
+	       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div id="signup" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title text-center"><span style="font-family:cursive;font-weight:bold;outline:none">SIGN UP</span></h2>
+      </div>
+      <div class="modal-body">
+		<input type="text" class="form-control text-block" placeholder="Full name" style="border-radius:0;padding:25;font-size:15px" required>
+        <input type="email" class="form-control text-block" placeholder="Email Address" style="margin-top:20px;border-radius:0;padding:25" required>
+		<input type="password" class="form-control text-block" placeholder="Password" style="border-radius:0;margin-top:20;padding:25" required>
+	    <input type="password" class="form-control text-block" placeholder="Confirm Password" style="border-radius:0;margin-top:20;padding:25" required>
+		<span class=""><button type="submit" class="btn btn-success btn-block" style="border-radius:0;margin-top:20;padding:5"><span style="color:black;font-size:30;font-family:Monospace">SIGN UP</span></button></span>
+	       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <div class="container">
 <div class="row" >
@@ -611,7 +703,7 @@ Flights
 <span style="padding-top:80px;color:white"><h3><strong>Travellers' choice : Hotels in Popular destinations</strong></h3></span>
 </div>
 </div>
-<div class="info" style="font-family:rockwell">
+<div class="info" style="font-family:Monospace;color:black;padding:20;font-size:20">
 <div class="row">
 <div class="col-md-12">
 <p>Shopping for hotels.You are at the right place.With millions of reviews from travellers worldwide , we can help you to find hotel,inn or bed & breakfast.And when you are ready to book , we check 200+ sites to find you the highest and lowest hotel prices.It's all right here on TripAdvisor.</p>
@@ -623,82 +715,82 @@ Flights
 <div class="ct">
 <div class="row" style="padding-top:20px">
 <div class="col-md-8" style="padding-top:0;font-family:arial">
-<span style="padding-top:80px;color:white"><h5><strong>Top Indian states & cities</strong></h5></span>
+<span style="padding-top:80px;color:white;font-size:20px"><h4><strong>Top Indian states & cities</strong></h4></span>
 </div>
 </div>
 <div class="container text-center" style="">
-<div class="row">
-<ul class="col-md-4" style="list-style-type:none;font-size:15px">
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
+<div class="row" style="font-family:Monospace;font-size:15;color:powderblue">
+<ul class="col-md-4" style="list-style-type:none;">
+<li>Thane</li>
+<li>Udaipur</li>
+<li>Navi Mumbai</li>
+<li>Dehradun</li>
+<li>Jodhpur</li>
+<li>Aurangabad</li>
+<li>Mangalore</li>
+<li>Ranchi</li>
+<li>Gandhi nagar</li>
+<li>Bhagalpur</li>
+<li>Purnia</li>
+<li>Odisha</li>
+<li>Bokaro</li>
+<li>Dhanbad</li>
+<li>Bhangarh</li>
+<li>Itawah</li>
+<li>Jhansi</li>
+<li>Patiyala</li>
+<li>Lonawala</li>
+<li>Bikaner</li>
+<li>Ajmer</li>
+<li>Malegaon</li>
 </ul>
-<ul class="col-md-4" style="list-style-type:none;font-size:15px">
+<ul class="col-md-4" style="list-style-type:none">
 <li>Ahmedabad</li>
 <li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
+<li>Agra</li>
+<li>Goa</li>
+<li>New Delhi</li>
+<li>Mumbai</li>
+<li>Nagpur</li>
+<li>Kolkata</li>
+<li>Chandigarh</li>
+<li>Banglore</li>
+<li>Hydrabad</li>
+<li>Chennai</li>
+<li>Pune</li>
+<li>Jaipur</li>
+<li>Rajasthan</li>
+<li>Surat</li>
+<li>Kochi</li>
+<li>Visakhapatnam</li>
+<li>Lucknow</li>
+<li>Kanpur</li>
+<li>Bhubaneshwar</li>
+<li>Noida</li>
 </ul>
-<ul class="col-md-4" style="list-style-type:none;font-size:15px">
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
-<li>Ahmedabad</li>
-<li>Patna</li>
+<ul class="col-md-4" style="list-style-type:none">
+<li>Gurugram</li>
+<li>Indore</li>
+<li>Madurai</li>
+<li>Coimbatore</li>
+<li>Thiruvanantpuram</li>
+<li>Mysore</li>
+<li>Bhopal</li>
+<li>Vadodara</li>
+<li>Kashmir</li>
+<li>Varanasi</li>
+<li>Amritsar</li>
+<li>Shimla</li>
+<li>Ludhiana</li>
+<li>Rajkot</li>
+<li>Ghaziabad</li>
+<li>Guwahati</li>
+<li>Faridabad</li>
+<li>Nashik</li>
+<li>Raipur</li>
+<li>Cuttack</li>
+<li>Jamshedpur</li>
+<li>Allahabad</li>
 </ul>
 </div>
 </div>
@@ -713,7 +805,7 @@ Want to receive exclusive hotel offers ? Subscribe to our newsletter!
 <div class="col-md-5" style="padding:15;padding-top:0">
 <div class="input-group">
         <input type="email" class="form-control text-block" placeholder="Email Address" style="border-radius:0;padding:25">
-		<span class="input-group-btn"><button type="submit" class="btn btn-primary btn-block" style="border-radius:0;padding:15.343">Subscribe</button></span>
+		<span class="input-group-btn"><button type="submit" class="btn subs btn-block" style="border-radius:0;padding:11"><span id="subs_but">Subscribe</span></button></span>
 	</div>
 </div>
 </div>
