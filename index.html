@@ -363,6 +363,7 @@ padding-top:10;
 html,body
 {
 height:100%;
+width:100%;
 }
 
 
@@ -393,20 +394,17 @@ color:white;
 {
 	color:white;
 }
-<!---------------------------------------- MODAL start------------------------------------------------------------>
 
-
-
- <!-------------------------------------------------------MODAL end------------------------------------------------------------------------->
+body {
+padding-right:0px !important;
+margin-right:0px !important;
+}
+-------------------------------------------------------MODAL end------------------------------------------------------------------------->
 
 </style>
 <script>
+ 
 $(document).ready(function() {
-$("#mymodal").mouseenter(function(){
-   $("body").css("overflow", "hidden"); 
-}).mouseleave(function(){
-   $("body").css("overflow", "visible");
-});
 $("figure").click(function() { 
     
 	$('figure').find('img').removeClass('selected');
